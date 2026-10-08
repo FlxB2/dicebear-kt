@@ -1,0 +1,3564 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/slice.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Slice” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Slice",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "cuts",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "cuts": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -45,
+        "max": 45,
+        "step": 15
+      },
+      "variants": {
+        "five": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFive-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-6)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFive-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-3)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-3)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFive-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFive-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(3)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(3)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFive-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFive-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-86-80h260V27.8H-86z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFive-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-83 27.2h260V43H-83z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFive-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 42.4h260v15.8H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFive-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-77 57.6h260v15.8H-77z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFive-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-74 72.8h260V180H-74z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fiveDeep": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveDeep-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveDeep-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveDeep-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".46"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveDeep-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveDeep-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveDeep-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76-80h260V27.8H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveDeep-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-82 27.2h260V43H-82z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveDeep-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 42.4h260v15.8H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveDeep-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-82 57.6h260v15.8H-82z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveDeep-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 72.8h260V180H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fiveKick": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveKick-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveKick-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveKick-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveKick-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveKick-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveKick-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V27.8H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveKick-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 27.2h260V43H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveKick-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-74 42.4h260v15.8H-74z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveKick-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 57.6h260v15.8H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveKick-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 72.8h260V180H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fiveWave": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveWave-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveWave-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveWave-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveWave-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsFiveWave-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveWave-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V27.8H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveWave-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75 27.2h260V43H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveWave-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 42.4h260v15.8H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveWave-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-85 57.6h260v15.8H-85z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsFiveWave-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 72.8h260V180H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quad": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuad-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuad-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuad-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(2)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuad-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuad-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-85-80h260V31.6H-85z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuad-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-82 31h260v19.6H-82z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuad-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-78 50h260v19.6H-78z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuad-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75 69h260v111H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quadDeep": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadDeep-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadDeep-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadDeep-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#000000",
+                    "opacity": ".46"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadDeep-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadDeep-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84-80h260V31.6H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadDeep-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 31h260v19.6H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadDeep-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84 50h260v19.6H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadDeep-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 69h260v111H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quadPair": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadPair-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-6)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadPair-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadPair-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadPair-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadPair-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-86-80h260V31.6H-86z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadPair-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-86 31h260v19.6H-86z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadPair-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-74 50h260v19.6H-74z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadPair-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-74 69h260v111H-74z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quadZig": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadZig-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadZig-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadZig-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsQuadZig-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadZig-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84-80h260V31.6H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadZig-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 31h260v19.6H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadZig-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84 50h260v19.6H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsQuadZig-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 69h260v111H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "six": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSix-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSix-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-3)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-3)",
+                    "color": "#ffffff",
+                    "opacity": ".22"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSix-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-1)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-1)",
+                    "color": "#ffffff",
+                    "opacity": ".07"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSix-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1)",
+                    "color": "#000000",
+                    "opacity": ".08"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSix-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(3)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(3)",
+                    "color": "#000000",
+                    "opacity": ".21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSix-f)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSix-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-85-80h260V25.27H-85z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSix-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-83 24.67h260v13.27H-83z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSix-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-81 37.33h260V50.6H-81z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSix-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-79 50h260v13.27H-79z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSix-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-77 62.67h260v13.27H-77z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSix-f"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75 75.33h260V180H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sixDeep": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixDeep-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#ffffff",
+                    "opacity": ".22"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixDeep-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-2)",
+                    "color": "#ffffff",
+                    "opacity": ".07"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixDeep-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".08"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixDeep-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(2)",
+                    "color": "#000000",
+                    "opacity": ".46"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixDeep-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixDeep-f)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(2)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(2)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixDeep-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84-80h260V25.27H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixDeep-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-82 24.67h260v13.27H-82z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixDeep-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260V50.6H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixDeep-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-78 50h260v13.27H-78z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixDeep-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 62.67h260v13.27H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixDeep-f"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-78 75.33h260V180H-78z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sixStep": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixStep-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixStep-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-3)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-3)",
+                    "color": "#ffffff",
+                    "opacity": ".22"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixStep-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-1)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-1)",
+                    "color": "#ffffff",
+                    "opacity": ".07"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixStep-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1)",
+                    "color": "#000000",
+                    "opacity": ".08"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixStep-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(3)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(3)",
+                    "color": "#000000",
+                    "opacity": ".21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixStep-f)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixStep-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-85-80h260V25.27H-85z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixStep-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-83 24.67h260v13.27H-83z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixStep-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-81 37.33h260V50.6H-81z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixStep-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-79 50h260v13.27H-79z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixStep-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-77 62.67h260v13.27H-77z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixStep-f"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75 75.33h260V180H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sixZig": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixZig-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixZig-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#ffffff",
+                    "opacity": ".22"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixZig-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#ffffff",
+                    "opacity": ".07"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixZig-d)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".08"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixZig-e)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#000000",
+                    "opacity": ".21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsSixZig-f)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixZig-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84-80h260V25.27H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixZig-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 24.67h260v13.27H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixZig-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84 37.33h260V50.6H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixZig-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 50h260v13.27H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixZig-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84 62.67h260v13.27H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsSixZig-f"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 75.33h260V180H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tri": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTri-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-5)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTri-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTri-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTri-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-85-80h260V37.93H-85z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTri-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTri-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75 62.67h260V180H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "triDeep": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriDeep-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(-4)",
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriDeep-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".46"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriDeep-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriDeep-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-84-80h260V37.93H-84z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriDeep-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriDeep-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-76 62.67h260V180H-76z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "triFan": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriFan-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#000000",
+                    "opacity": ".34"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriFan-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriFan-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(5)",
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriFan-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75-80h260V37.93H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriFan-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriFan-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-75 62.67h260V180H-75z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "triKick": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriKick-a)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriKick-b)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(6)",
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#cutsTriKick-c)"
+              },
+              "children": [
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  }
+                },
+                {
+                  "name": "shape",
+                  "type": "component",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriKick-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V37.93H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriKick-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-74 37.33h260v25.93H-74z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cutsTriKick-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260V180H-80z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "shape": {
+      "width": 100,
+      "height": 100,
+      "scale": {
+        "min": 0.95,
+        "max": 1.05
+      },
+      "variants": {
+        "arch": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 79V45c0-19 15-33 35-33s35 14 35 33v34c0 5-4 9-9 9H24c-5 0-9-4-9-9",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "diamond": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37.27 24.73Q50 12 62.73 24.73l12.54 12.54Q88 50 75.27 62.73L62.73 75.27Q50 88 37.27 75.27L24.73 62.73Q12 50 24.73 37.27z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "disc": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "38",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "egg": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c19 0 29 20 29 38 0 22-13 38-29 38S21 72 21 50c0-18 10-38 29-38",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "hexagon": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.74 18.5Q50 12 61.26 18.5l10.39 6Q82.91 31 82.91 44v12q0 13-11.26 19.5l-10.39 6Q50 88 38.74 81.5l-10.39-6Q17.09 69 17.09 56V44q0-13 11.26-19.5z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "lens": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c26 18 26 58 0 76-26-18-26-58 0-76",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "lump": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M90.18 50c.12 4.51-.76 9.61-2.61 13.67-1.86 4.06-5.2 7.91-8.53 10.69-3.34 2.79-7.63 4.54-11.49 6.04-3.86 1.49-7.73 2.16-11.68 2.91s-7.79 1.52-12.03 1.6c-4.23.09-9.03.23-13.36-1.09-4.34-1.32-9.3-3.6-12.64-6.83-3.34-3.24-6.18-8.09-7.41-12.59s-.85-9.92.04-14.4 3.19-8.71 5.32-12.45c2.12-3.75 4.69-6.95 7.41-10.04 2.73-3.08 5.54-6.08 8.93-8.47 3.38-2.38 7.29-4.72 11.38-5.86s8.87-1.56 13.15-.97c4.29.6 8.75 2.35 12.54 4.53 3.8 2.18 7.29 5.26 10.23 8.57 2.94 3.3 5.6 7.17 7.39 11.29 1.79 4.11 3.23 8.89 3.36 13.4",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "pill": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M74 36c0-13.255-10.745-24-24-24S26 22.745 26 36v28c0 13.255 10.745 24 24 24s24-10.745 24-24z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "square": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 37q0-22 22-22h26q22 0 22 22v26q0 22-22 22H37q-22 0-22-22z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "squircle": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M88 50c0 5.01-.08 11.51-.23 15.03-.16 3.52-.4 4.33-.71 6.09-.32 1.77-.71 3.15-1.19 4.48-.48 1.34-1.04 2.48-1.69 3.53-.65 1.06-1.38 1.98-2.23 2.82-.84.85-1.76 1.58-2.82 2.23-1.05.65-2.19 1.21-3.53 1.69-1.33.48-2.71.87-4.48 1.19-1.76.31-2.57.55-6.09.71-3.52.15-10.02.23-15.03.23s-11.51-.08-15.03-.23c-3.52-.16-4.33-.4-6.09-.71-1.77-.32-3.15-.71-4.48-1.19-1.34-.48-2.48-1.04-3.53-1.69-1.06-.65-1.98-1.38-2.82-2.23-.85-.84-1.58-1.76-2.23-2.82-.65-1.05-1.21-2.19-1.69-3.53-.48-1.33-.87-2.71-1.19-4.48-.31-1.76-.55-2.57-.71-6.09C12.08 61.51 12 55.01 12 50s.08-11.51.23-15.03c.16-3.52.4-4.33.71-6.09.32-1.77.71-3.15 1.19-4.48.48-1.34 1.04-2.48 1.69-3.53.65-1.06 1.38-1.98 2.23-2.82.84-.85 1.76-1.58 2.82-2.23 1.05-.65 2.19-1.21 3.53-1.69 1.33-.48 2.71-.87 4.48-1.19 1.76-.31 2.57-.55 6.09-.71C38.49 12.08 44.99 12 50 12s11.51.08 15.03.23c3.52.16 4.33.4 6.09.71 1.77.32 3.15.71 4.48 1.19 1.34.48 2.48 1.04 3.53 1.69 1.06.65 1.98 1.38 2.82 2.23.85.84 1.58 1.76 2.23 2.82.65 1.05 1.21 2.19 1.69 3.53.48 1.33.87 2.71 1.19 4.48.31 1.76.55 2.57.71 6.09.15 3.52.23 10.02.23 15.03",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#eef0f2",
+        "#eff2ef",
+        "#f2f1ee",
+        "#f6f1ec",
+        "#f7f5f0"
+      ]
+    },
+    "body": {
+      "values": [
+        "#598ba9",
+        "#5b8e94",
+        "#5b9083",
+        "#5b9367",
+        "#6b81c2",
+        "#7d8b56",
+        "#8f72c2",
+        "#928455",
+        "#a67a55",
+        "#b360ab",
+        "#c25f80",
+        "#c56455"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3647 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/pixel-art.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Pixel Art” (https://www.figma.com/community/file/1198754108850888330) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Pixel Art",
+      "url": "https://www.figma.com/community/file/1198754108850888330"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M4 2h8v1h1v3h1v2h-1v3h-1v1H9v1h4v1h1v2H2v-2h1v-1h4v-1H4v-1H3V8H2V6h1V3h1z",
+          "fill": {
+            "type": "color",
+            "name": "skin"
+          }
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M4 2h8v1h1v3h1v2h-1v3h-1v1H4v-1H3V8H2V6h1V3h1z",
+          "fill": "#ffffff",
+          "fill-opacity": ".1"
+        }
+      },
+      {
+        "name": "accessories",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(1 7)"
+        }
+      },
+      {
+        "name": "clothes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(2 12)"
+        }
+      },
+      {
+        "name": "eyes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(4 5)"
+        }
+      },
+      {
+        "name": "glasses",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(2 4)"
+        }
+      },
+      {
+        "name": "beard",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(3 6)"
+        }
+      },
+      {
+        "name": "mouth",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(6 9)"
+        }
+      },
+      {
+        "name": "hair",
+        "type": "component"
+      },
+      {
+        "name": "hat",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(1)"
+        }
+      }
+    ],
+    "width": 16,
+    "height": 16
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "crispEdges"
+  },
+  "components": {
+    "accessories": {
+      "width": 14,
+      "height": 2,
+      "probability": 10,
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "accessories"
+                },
+                "d": "M12 0h2v2h-2zM0 0h2v2H0z"
+              }
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "accessories"
+                },
+                "d": "M12 0h1v2h-1zM1 0h1v2H1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M1 0h1v1H1zm11 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "accessories"
+                },
+                "d": "M12 0h1v2h-1zM1 0h1v2H1z"
+              }
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "accessories"
+                },
+                "d": "M1 0h1v1H1zm11 0h1v1h-1z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "beard": {
+      "width": 10,
+      "height": 8,
+      "probability": 5,
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant01-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant01-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M0 2h2v1h1v1h4V3h1V2h2v3H9v1H1V5H0z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant02-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant02-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M2 5h6v1H7v1H6v1H4V7H3V6H2z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant03-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant03-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M0 3h2v1h6V3h2v2H9v2H8v1H2V7H1V5H0z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant04-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant04-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "fill": "#ffffff",
+                        "opacity": ".9",
+                        "d": "M3 5h4v1H3z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant05": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant05-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant05-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M0 0h1v2h1v1h6V2h1V0h1v5H9v1H1V5H0z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant06": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant06-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant06-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M0 3h3v1h4V3h3v2H9v1H1V5H0z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant07": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant07-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant07-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M1 3H0v2h1v1h8V5h1V3z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "variant08": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant08-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": {
+                      "type": "color",
+                      "name": "hair"
+                    },
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant08-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M0 0h1v3h8V0h1v5H9v1H1V5H0z",
+                        "fill": "#ffffff",
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "clothes": {
+      "width": 12,
+      "height": 4,
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v1h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M9 2h1v2H9zM2 2h1v2H2z"
+              }
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v2h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M3 2h1v1H3zm-1.2.7h1v1h-1zm2.7 0h1v1h-1zM1 1h1v1H1zM0 2h1v1H0zm10-1h1v1h-1zM9 2h1v1H9zM8 3h1v1H8zm3 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v1h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H1v1H0v2h12V2h-1V1H9v1H3z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H1v1H0v2h12V2h-1V1H9v1H8v1H4V2H3z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "variant06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v1h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M1 1h1v1H1zM0 2h1v1H0zm1 1h1v1H1zm1-1h1v1H2zm1-1h1v1H3zm0 2h1v1H3zm1-1h1v1H4zm1 1h1v1H5zm1-1h1v1H6zm1 1h1v1H7zm1-1h1v1H8zm1 1h1v1H9zm0-2h1v1H9zm1 1h1v1h-1zm1 1h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "variant07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H2v3h3V3H4V2H3zm7 0H9v1H8v1H7v1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v2h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h1v2h6V1h1v2h1v1H1V3h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M2 1h1v2H2zm7 0h1v2H9z"
+              }
+            }
+          ]
+        },
+        "variant10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h1v1h6V1h1v1h1v2H1V2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M7 3h2v1H7z"
+              }
+            }
+          ]
+        },
+        "variant11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v1h1v1h2V2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 0h2v1h4v1h1v2H0V2h1V1h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M5 0h2v1H5z"
+              }
+            }
+          ]
+        },
+        "variant13": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H1v1H0v2h12V2h-1V1H9v1H3z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M0 2h1v2H0zm4 0h1v2H4zm2 0h1v2H6zm2 0h1v2H8zM2 1h1v3H2zm8 0h1v3h-1z"
+              }
+            }
+          ]
+        },
+        "variant14": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H1v1H0v2h12V2h-1V1H9v1H8v1H4V2H3z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant15": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 2H2v1H1v1h4V3H4zm6 1h1v1H7V3h1V2h2z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant16": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H1v1H0v2h5V3H4V2H3zm8 0H9v1H8v1H7v1h5V2h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M9 1h1v1H9zM8 2h1v1H8zM7 3h1v1H7zM4 3h1v1H4zM3 2h1v1H3zM2 1h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant17": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h2v1h1v1h2V2h1V1h2v1h1v2H1V2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            }
+          ]
+        },
+        "variant18": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h2v1h1v1h2V2h1V1h2v3H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M8 2h1v1H8zm1-1h1v1H9zM7 3h1v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M7 2h1v1H7zm1-1h1v1H8zM6 3h1v1H6z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M4 2H3v1h1zM3 1H2v1h1zm2 2H4v1h1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M5 2H4v1h1zM4 1H3v1h1zm2 2H5v1h1z"
+              }
+            }
+          ]
+        },
+        "variant19": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h1v1h6V1h1v3H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 3h2v1H7z"
+              }
+            }
+          ]
+        },
+        "variant20": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                },
+                "d": "M2 2h8v2H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h1v2H2zm7 0h1v2H9z"
+              }
+            }
+          ]
+        },
+        "variant21": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1H2v3h3V3H4V2H3zm7 0H9v1H8v1H7v1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M2 1h1v1H2zm1 1h1v1H3zm1 1h1v1H4zm3 0h1v1H7zm1-1h1v1H8z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M9 2h1v1H9z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M9 1h1v1H9z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M8 3h1v1H8zM3 3h1v1H3zM2 2h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant22": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 1H2v3h2zm6 0H8v3h2z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M3 1h1v3H3zm5 0h1v3H8z"
+              }
+            }
+          ]
+        },
+        "variant23": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 1h3v1h1v2H0V2h1V1h3v1h4z",
+                "fill": {
+                  "type": "color",
+                  "name": "clothing"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M2 1h1v3H2zm7 0h1v3H9z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 8,
+      "height": 3,
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M8 0H5v3h3zM3 0H0v3h3z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M8 1H6v1h2zM3 1H1v1h2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".7",
+                "d": "M8 1H7v1h1zM3 1H2v1h1z"
+              }
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0H6v2h2V1H7zM2 0H1v2h2V1H2z",
+                "fill": "#ffffff",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 0v1h1v1H5V0zM1 0v1h1v1H0V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 0v1H5V0zm1 1v1H6V1zM1 0v1H0V0zm1 1v1H1V1z",
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 0h1v2H5V1h1zM1 0h1v2H0V1h1z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M7 1H6v1h1zM2 1H1v1h1z"
+              }
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0H1v2h2V1H2zm5 0H6v2h2V1H7z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M1 1h1v1H1zm5 0h1v1H6z"
+              }
+            }
+          ]
+        },
+        "variant05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0H6v1H5v1h3V1H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M5 1h1v1H5zm1-1h1v1H6zm1 1h1v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0H1v1H0v1h3V1H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M0 1h1v1H0zm1-1h1v1H1zm1 1h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M1 1h1v1H1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M6 1h1v1H6z"
+              }
+            }
+          ]
+        },
+        "variant07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M7 1h1v1H7zM2 1h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M5 1h1v1H5zM0 1h1v1H0z"
+              }
+            }
+          ]
+        },
+        "variant09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M6 1h1v1H6zM1 1h1v1H1z"
+              }
+            }
+          ]
+        },
+        "variant10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M6 0h2v2H6zM1 0h2v2H1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".4",
+                "d": "M1 0h1v1H1zm1 1h1v1H2zm4-1h1v1H6zm1 1h1v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".7",
+                "d": "M7 0h1v1H7zM2 0h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M0 1h2v1H0zm5 0h2v1H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".7",
+                "d": "M0 1h1v1H0zm5 0h1v1H5z"
+              }
+            }
+          ]
+        },
+        "variant12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1h1v2H0V2h1zm5 0h1v2H5V2h1z",
+                "fill": "#ffffff",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1v1H1v1h2V1zm5 0v1H6v1h2V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1v1h1V1zM1 2v1h1V2zm6-1v1h1V1zM6 2v1h1V2z",
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "glasses": {
+      "width": 12,
+      "height": 5,
+      "probability": 20,
+      "variants": {
+        "dark01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
+              }
+            }
+          ]
+        },
+        "dark02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1H0v1h1v2h4V3h2v1h4V2h1zm-2 1H7v1h3zM5 3H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
+              }
+            }
+          ]
+        },
+        "dark03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
+              }
+            }
+          ]
+        },
+        "dark04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "dark05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "dark06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "dark07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "light01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
+              }
+            }
+          ]
+        },
+        "light02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1H0v1h1v2h4V3h2v1h4V2h1zm-2 1H7v1h3zM5 3H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
+              }
+            }
+          ]
+        },
+        "light03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
+              }
+            }
+          ]
+        },
+        "light04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "light05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "light06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "light07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hair": {
+      "width": 16,
+      "height": 16,
+      "variants": {
+        "long01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1H5v1H4v1H3v1H2v2h2V5h1V4h1V3h5v1h1v1h1v1h1V3h-1V2h-1zm1 7h1v6h-1v-1H9v-1h3v-1h1zM2 8h1v3h1v1h3v1H3v1H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 2h8v1h1v2h1v7h-1v-1h-1V5h-1V4H5v1H4v6H3v1H2V5h1V3h1zM2 12v1H1v-1zm12 0h1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 2h8v1h1v2h1v6h1v2h-2v-1h-1V5h-1V4H5v1H4v7H3v1H1v-2h1V5h1V3h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1H5v1H4v1H3v1H2v2h2V5h1V4h1V3h5v1h1v1h1v1h1V3h-1V2h-1zm1 7h1v4h-2v-1h1zM2 8h1v3h1v1H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0H1v3h2v1H2v2h1V5h2V4h1V3h5v1h1v1h1v1h1V3h-1V2h-1V1H6v1H4zM2 8h1v1H2zm12 0h-1v1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 2h10v1h1v3h-1V4H3v2H2V3h1zm10 6h1v1h1v2h-1v-1h-1zm2 3h1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1h10v1h1v1h1v10h-1v-1h-1V8h1V6h-1V4h-1V3H5v1H4v1H3v1H2v2h1v4H2v1H1V3h1V2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h12v1h1v11h-1v-1h-1V8h1V6h-1V3h-1v1h-1V3H8v1H7v1H6v1H5v1H4v1H3v4H2v1H1V2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1h12v1h1v11h-1v-1h-1V8h1V6h-1V3H3v3H2v2h1v4H2v1H1V2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 1v1H3v1H2v1H1v6h2V8H2V6h1V4h1V3h2v1h1V3h1V2H7V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 1v1H3v2H2v2h1V5h4V4h3V3h2v1h1v2h1V2h-2V1zM2 8h1v2H2zm12 0h-1v2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 4V3h7v1h1v2h1v2h-1v3h-1v1H9v1h4v1h1v3h1V3h-1V2h-1V1H3v1H2v1H1v14h1v-3h1v-1h4v-1H4v-1H3V8H2V6h1V5h1V4z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long13": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M13 1H3v1H2v1H1v11h2V4h10v10h2V3h-1V2h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long14": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 1H3v1H2v2h1v1h1V4h8v1h1V4h1V2h-1V1h-2v1H5z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long15": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 0h1v1H5z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 3h1V1h2v1h1V1h1v1h1V1H7V0h2v2h1V1h1v1h1V1h1v1h1v1h-1v1H4v1H3v1H2V5H1V4h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 3H1V2h1zM1 6H0V5h1zm1 2H1V6h1zm0 0h1v2H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 4h-1v2h2V5h1V4h-1V3h-1zm0 0h1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1h-1V0h1zm1 7h1v2h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long16": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 1h8v1h2v1h1v3h-1V4h-2V3H6v1H5V3H4v1H3v2H2v2h1v2H1V3h1V2h1zm11 7h-1v2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long17": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 1h7v1h1v1h1v3h-1V4h-2V3H5v1H4v1H3v1H2v2h1v3h1v1H1V4h1V3h1V2h2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long18": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M13 2H3v1H2v3h1V4h10v2h1V3h-1zM2 8h1v2H2v1H1V9h1zm-1 3v1H0v-1zm15 0h-1V9h-1V8h-1v2h1v1h1v1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long19": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M13 2H3v1H2v3h1V4h10v2h1V3h-1zM3 8H2v1H1v2H0v1h1v-1h1v-1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long20": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 1h8v1h1v1h1v3h-1V4h-1V3H6v1H3v2H2V3h1V2h1zM2 8h1v3h1v1h3v1H2zm10 4H9v1h5V8h-1v3h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long21": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M13 1H3v1H2v4h1V3h10v3h1V2h-1zM2 8h1v3h1v1H2zm10 3h1V8h1v4h-2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "short01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 2H4v1h8zm1 1H7v1h6zm0 1h-2v1h2zm0 1h-1v1h1zM6 4H3v1h3zm1-1H3v1h4zM5 5H3v1h2zM4 6H3v1h1z"
+              }
+            }
+          ]
+        },
+        "short02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 2H4v1h8zm1 1h-2v1h2zm0 1h-1v1h1zM6 3H3v1h3zM5 4H3v1h2zM4 5H3v1h1z"
+              }
+            }
+          ]
+        },
+        "short03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 2H4v1h8zm1 1h-1v1h1zM6 3H3v1h3zM5 4H3v1h2z"
+              }
+            }
+          ]
+        },
+        "short04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 3H3v2h1zm9 0h-1v2h1zm-1-1H4v1h8z"
+              }
+            }
+          ]
+        },
+        "short05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M9 1H8v3h1zM8 2H7v2h1zm2-2H9v3h1zm1 1h-1v1h1z"
+              }
+            }
+          ]
+        },
+        "short06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 2H3v3h1zm9 0h-1v3h1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 1H3v2h9z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 2H2v2h2zm10 0h-2v2h2z"
+              }
+            }
+          ]
+        },
+        "short07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 3h1v1H3zm2-1H4v1h1zm7 0h-1v1h1zm1 1h-1v1h1z"
+              }
+            }
+          ]
+        },
+        "short08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M5 1h5v1H5zM4 2h8v1H4zm5 1h1v1H9zm2 0h2v1h-2zM3 3h2v1H3z"
+              }
+            }
+          ]
+        },
+        "short09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M7 1h5v1H7zM4 2h7v1H4zM3 3h5v1H3z"
+              }
+            }
+          ]
+        },
+        "short10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 2h10v1H3zm0 1h2v1H3zm4-2h5v1H7zm6 2h-1v1h1z"
+              }
+            }
+          ]
+        },
+        "short11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 2h8v1H4zM3 1h1v1H3zM2 2h1v1H2zm0 1h1v1H2zm0 1h1v1H2zm0 1h1v1H2zM1 3h1v1H1zm0-2h1v1H1zm0 4h1v1H1zm0 1h1v1H1zM0 7h1v1H0zm1 1h1v1H1zm4-7h1v1H5zm1-1h1v1H6zM4 0h1v1H4zm2 1h1v1H6zm1 0h1v1H7zm1-1h1v1H8zm1 1h1v1H9zm0-1h1v1H9zm2 0h1v1h-1zm-1 1h1v1h-1zm2 0h1v1h-1zm1 1h1v1h-1zm0 1h1v1h-1zm0 1h1v1h-1zm0 1h1v1h-1zm1 1h1v1h-1zm1-2h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M15 4h1v1h-1zm-1-1h1v1h-1zm0 5h1v1h-1zm1-2h1v1h-1zm0 1h1v1h-1zm-2-5h1v1h-1zM2 2h1v1H2zm1-1h1v1H3z"
+              }
+            }
+          ]
+        },
+        "short12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 2h1v3H4zm2 0h1v2H6zm2 0h1v2H8zm2 0h1v2h-1z"
+              }
+            }
+          ]
+        },
+        "short13": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 2h10v2H3zM2 2h1v1H2zm0-1h1v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M2 2h1v1H2zm11-2h1v1h-1zM2 4h1v1H2zm3-4h1v1H5zM4 1h1v1H4zm2 0h1v1H6zm3 0h1v1H9zM8 0h1v1H8zm4 1h1v1h-1zm1 1h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 1h1v1h-1zm2 2h1v1h-1zm-1 1h1v1h-1zM1 3h1v1H1z"
+              }
+            }
+          ]
+        },
+        "short14": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 4h1v3H3zm9 0h1v3h-1zM3 2h10v2H3z"
+              }
+            }
+          ]
+        },
+        "short15": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 3h10v1H3zm1-1h8v1H4zM2 4h2v2H2zm10 0h2v2h-2z"
+              }
+            }
+          ]
+        },
+        "short16": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 2h10v2H3z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 1h8v2H4z"
+              }
+            }
+          ]
+        },
+        "short17": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 3h2v3h-2zM2 3h2v3H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M3 2h10v2H3z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 1h8v2H4z"
+              }
+            }
+          ]
+        },
+        "short18": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M2 3h2v3H2zm10 0h2v3h-2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M12 3h2v3h-2z"
+              }
+            }
+          ]
+        },
+        "short19": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M4 2h8v1H4zM3 3h3v1H3zm7 0h3v1h-3zM8 3h1v1H8z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M8 3h1v1H8z"
+              }
+            }
+          ]
+        },
+        "short20": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M6 2h4v1H6zm1 1h2v1H7z"
+              }
+            }
+          ]
+        },
+        "short21": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M7 1h2v2H7z"
+              }
+            }
+          ]
+        },
+        "short22": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 2h8v1h1v2h-2V4H5v1H3V3h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "short23": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "d": "M6 2h4v1H6z"
+              }
+            }
+          ]
+        },
+        "short24": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 2H5v1h1v1h4V3h1zM3 3h1v2H3zm10 0h-1v2h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hat": {
+      "width": 14,
+      "height": 5,
+      "probability": 5,
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0h8v1h1v1h1v3H1V2h1V1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M4 0h1v1H4zM3 1h1v1H3zM2 2h1v1H2zM1 3h1v1H1z"
+              }
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 1H3v1H2v2h12V3h-2V2h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M10 4H9V1h1z"
+              }
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0h8v1h1v1h1v2H1V2h1V1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M12 1v1H2V1zm1 2v1H1V3z"
+              }
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0h8v1h1v1h1v3H1V2h1V1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M12 1v1H2V1zm1 2v1H1V3z"
+              }
+            }
+          ]
+        },
+        "variant05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0h8v1h1v1h1v2H1V2h1V1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M11 1h1v1h-1zm-1 1h1v1h-1zM9 3h1v1H9zm0-3h1v1H9zM8 1h1v1H8zM7 2h1v1H7zM6 3h1v1H6z"
+              }
+            }
+          ]
+        },
+        "variant06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 0H2v3H0v1h14V3h-2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M10 1h1v3h-1z"
+              }
+            }
+          ]
+        },
+        "variant07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 1H3v1H2v2h12V3h-2V2h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            }
+          ]
+        },
+        "variant08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0h8v1h1v1h1v2H1V2h1V1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M11 2v1H8V2z"
+              }
+            }
+          ]
+        },
+        "variant09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0h8v1h1v1h1v3H1V2h1V1h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M10 2h1v3h-1zM8 2h1v3H8z"
+              }
+            }
+          ]
+        },
+        "variant10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 0H3v2H1v3h12V2h-2z",
+                "fill": {
+                  "type": "color",
+                  "name": "hat"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M9 2h1v3H9zM7 3h1v2H7z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 4,
+      "height": 3,
+      "variants": {
+        "happy01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v2h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1v1h1V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h1v1H0V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0v1H2v1h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v2h2V1H2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 2V1H2V0H1v1h1v1z",
+                "fill": "#ffffff",
+                "fill-opacity": ".2"
+              }
+            }
+          ]
+        },
+        "happy06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h1v1h2V1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 2V1H1V0H0v1h1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 2V1h3V0h1v1H3v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 2h2V1H1zm0-1V0H0v1zm2 0V0h1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "happy10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0v1H3v1H1V1h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h1v1h2V1H1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1v1h2V1z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "happy13": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1v1h2V1z",
+                "fill": "#ffffff",
+                "fill-opacity": ".2"
+              }
+            }
+          ]
+        },
+        "sad01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h2v1H1zm0 1v1H0V1zm2 0v1h1V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "sad02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h2v1h1V1H3V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0v1H1v1H0V1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h3v1H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h3v1H1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h4v1H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h2v1H1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h3v1h1V1H3V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1V1h3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h1v1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "accessories": {
+      "values": [
+        "#a9a9a9",
+        "#d3d3d3",
+        "#daa520",
+        "#fafad2",
+        "#ffd700"
+      ]
+    },
+    "clothing": {
+      "values": [
+        "#00b159",
+        "#03396c",
+        "#428bca",
+        "#44c585",
+        "#5bc0de",
+        "#88d8b0",
+        "#ae0001",
+        "#d11141",
+        "#ff6f69",
+        "#ffc425",
+        "#ffd969",
+        "#ffeead"
+      ]
+    },
+    "eyes": {
+      "values": [
+        "#588387",
+        "#5b7c8b",
+        "#647b90",
+        "#697b94",
+        "#76778b",
+        "#876658"
+      ]
+    },
+    "glasses": {
+      "values": [
+        "#191919",
+        "#323232",
+        "#43677d",
+        "#4b4b4b",
+        "#5f705c",
+        "#a04b5d"
+      ]
+    },
+    "hair": {
+      "values": [
+        "#009bbd",
+        "#28150a",
+        "#603015",
+        "#603a14",
+        "#611c17",
+        "#612616",
+        "#83623b",
+        "#91cb15",
+        "#a78961",
+        "#bd1700",
+        "#cab188"
+      ]
+    },
+    "hat": {
+      "values": [
+        "#2663a3",
+        "#2e1e05",
+        "#3d8a6b",
+        "#614f8a",
+        "#989789",
+        "#a62116",
+        "#cc6192"
+      ]
+    },
+    "mouth": {
+      "values": [
+        "#c98276",
+        "#d29985",
+        "#de0f0d",
+        "#e35d6a"
+      ]
+    },
+    "skin": {
+      "values": [
+        "#8d5524",
+        "#a26d3d",
+        "#b68655",
+        "#cb9e6e",
+        "#e0b687",
+        "#eac393",
+        "#f5cfa0",
+        "#ffdbac"
+      ]
+    }
+  }
+}

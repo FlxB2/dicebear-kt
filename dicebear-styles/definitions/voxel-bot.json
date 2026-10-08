@@ -1,0 +1,1764 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/voxel-bot.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Voxel Bot” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Voxel Bot",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M33 124.8h50l10.5-8.4h-50z",
+          "fill": "#000000",
+          "fill-opacity": ".08"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M36 119.4h20v5H36zm0 0h20l8.5-6.8h-20zm20 0 8.5-6.8v5l-8.5 6.8z",
+          "fill": {
+            "type": "color",
+            "name": "accent"
+          }
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M36 119.4h20l8.5-6.8h-20z",
+          "fill": "#ffffff",
+          "fill-opacity": ".38"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "m56 119.4 8.5-6.8v5l-8.5 6.8z",
+          "fill": "#000000",
+          "fill-opacity": ".24"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M61 119.4h20v5H61zm0 0h20l8.5-6.8h-20zm20 0 8.5-6.8v5l-8.5 6.8z",
+          "fill": {
+            "type": "color",
+            "name": "accent"
+          }
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M61 119.4h20l8.5-6.8h-20z",
+          "fill": "#ffffff",
+          "fill-opacity": ".38"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "m81 119.4 8.5-6.8v5l-8.5 6.8z",
+          "fill": "#000000",
+          "fill-opacity": ".24"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M44.5 101.1h10v17.5h-10zm0 0h10l7-5.6h-10zm10 0 7-5.6V113l-7 5.6z",
+          "fill": {
+            "type": "color",
+            "name": "accent"
+          }
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M44.5 101.1h10l7-5.6h-10z",
+          "fill": "#ffffff",
+          "fill-opacity": ".38"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "m54.5 101.1 7-5.6V113l-7 5.6z",
+          "fill": "#000000",
+          "fill-opacity": ".24"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M64.5 101.1h10v17.5h-10zm0 0h10l7-5.6h-10zm10 0 7-5.6V113l-7 5.6z",
+          "fill": {
+            "type": "color",
+            "name": "accent"
+          }
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "M64.5 101.1h10l7-5.6h-10z",
+          "fill": "#ffffff",
+          "fill-opacity": ".38"
+        }
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "attributes": {
+          "d": "m74.5 101.1 7-5.6V113l-7 5.6z",
+          "fill": "#000000",
+          "fill-opacity": ".24"
+        }
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "animations": [
+          {
+            "name": "stretch",
+            "duration": 7,
+            "tracks": {
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 85.9,
+                    "value": 0
+                  },
+                  {
+                    "at": 86,
+                    "value": -2.5
+                  },
+                  {
+                    "at": 95.9,
+                    "value": -2.5
+                  },
+                  {
+                    "at": 96,
+                    "value": 0
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M64.5 106.1h10v2h-10z",
+              "fill": "#000000",
+              "fill-opacity": ".16"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M32.5 105.7H35v7.5h-2.5zm0 0H35l6-4.8h-2.5zm2.5 0 6-4.8v7.5l-6 4.8z",
+              "fill": {
+                "type": "color",
+                "name": "accent"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M32.5 105.7H35l6-4.8h-2.5z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m35 105.7 6-4.8v7.5l-6 4.8z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M37.5 105.7H40v7.5h-2.5zm0 0H40l6-4.8h-2.5zm2.5 0 6-4.8v7.5l-6 4.8z",
+              "fill": {
+                "type": "color",
+                "name": "accent"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M37.5 105.7H40l6-4.8h-2.5z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m40 105.7 6-4.8v7.5l-6 4.8z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M39.5 106.1h.5v2h-.5z",
+              "fill": "#000000",
+              "fill-opacity": ".16"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M32.5 85.7H40v20h-7.5zm0 0H40l6-4.8h-7.5z",
+              "fill": {
+                "type": "color",
+                "name": "body"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M32.5 85.7H40l6-4.8h-7.5z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M32.5 85.7H40v20h-7.5z",
+              "fill": "#000000",
+              "fill-opacity": ".08"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M32.5 85.7H40l6-4.8h-7.5z",
+              "fill": "#000000",
+              "fill-opacity": ".2"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M44.5 106.1h10v2h-10z",
+              "fill": "#000000",
+              "fill-opacity": ".16"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M39.5 83.6h40v22.5h-40zm0 0h40l7-5.6h-40zm40 0 7-5.6v22.5l-7 5.6z",
+              "fill": {
+                "type": "color",
+                "name": "body"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M39.5 83.6h40l7-5.6h-40z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m79.5 83.6 7-5.6v22.5l-7 5.6z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M39.5 83.6h40l7-5.6h-40z",
+              "fill": "#000000",
+              "fill-opacity": ".2"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 105.7h2.5v7.5H80zm0 0h2.5l6-4.8H86zm2.5 0 6-4.8v7.5l-6 4.8z",
+              "fill": {
+                "type": "color",
+                "name": "accent"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 105.7h2.5l6-4.8H86z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m82.5 105.7 6-4.8v7.5l-6 4.8z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M85 105.7h2.5v7.5H85zm0 0h2.5l6-4.8H91zm2.5 0 6-4.8v7.5l-6 4.8z",
+              "fill": {
+                "type": "color",
+                "name": "accent"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M85 105.7h2.5l6-4.8H91z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m87.5 105.7 6-4.8v7.5l-6 4.8z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 85.7h7.5v20H80zm0 0h7.5l6-4.8H86zm7.5 0 6-4.8v20l-6 4.8z",
+              "fill": {
+                "type": "color",
+                "name": "body"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 85.7h7.5l6-4.8H86z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m87.5 85.7 6-4.8v20l-6 4.8z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 85.7h7.5v20H80z",
+              "fill": "#000000",
+              "fill-opacity": ".08"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 85.7h7.5l6-4.8H86z",
+              "fill": "#000000",
+              "fill-opacity": ".2"
+            }
+          },
+          {
+            "name": "chest",
+            "type": "component"
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M54.5 71.6h15v10h-15zm0 0h15l4-3.2h-15zm15 0 4-3.2v10l-4 3.2z",
+              "fill": {
+                "type": "color",
+                "name": "accent"
+              }
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M54.5 71.6h15l4-3.2h-15z",
+              "fill": "#ffffff",
+              "fill-opacity": ".38"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "m69.5 71.6 4-3.2v10l-4 3.2z",
+              "fill": "#000000",
+              "fill-opacity": ".24"
+            }
+          },
+          {
+            "name": "g",
+            "type": "element",
+            "animations": [
+              {
+                "name": "lift",
+                "duration": 7,
+                "tracks": {
+                  "translateY": {
+                    "keyframes": [
+                      {
+                        "at": 0,
+                        "value": 0
+                      },
+                      {
+                        "at": 86.9,
+                        "value": 0
+                      },
+                      {
+                        "at": 87,
+                        "value": -2.5
+                      },
+                      {
+                        "at": 94.9,
+                        "value": -2.5
+                      },
+                      {
+                        "at": 95,
+                        "value": 0
+                      },
+                      {
+                        "at": 100,
+                        "value": 0
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "children": [
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M28 50.3h2.5v10H28zm0 0h2.5l4-3.2H32z",
+                  "fill": {
+                    "type": "color",
+                    "name": "accent"
+                  }
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M28 50.3h2.5l4-3.2H32z",
+                  "fill": "#ffffff",
+                  "fill-opacity": ".38"
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M29 29h60v50H29zm0 0h60l10-8H39zm60 0 10-8v50l-10 8z",
+                  "fill": {
+                    "type": "color",
+                    "name": "body"
+                  }
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M29 29h60l10-8H39z",
+                  "fill": "#ffffff",
+                  "fill-opacity": ".38"
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "m89 29 10-8v50l-10 8z",
+                  "fill": "#000000",
+                  "fill-opacity": ".24"
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M36.5 36.5h45V39H84v32.5h-2.5V74h-45v-2.5H34V39h2.5z",
+                  "fill": {
+                    "type": "color",
+                    "name": "screen"
+                  }
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M90.5 50.3H93v10h-2.5zm0 0H93l4-3.2h-2.5zm2.5 0 4-3.2v10l-4 3.2z",
+                  "fill": {
+                    "type": "color",
+                    "name": "accent"
+                  }
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "M90.5 50.3H93l4-3.2h-2.5z",
+                  "fill": "#ffffff",
+                  "fill-opacity": ".38"
+                }
+              },
+              {
+                "name": "path",
+                "type": "element",
+                "attributes": {
+                  "d": "m93 50.3 4-3.2v10l-4 3.2z",
+                  "fill": "#000000",
+                  "fill-opacity": ".24"
+                }
+              },
+              {
+                "name": "eyes",
+                "type": "component",
+                "attributes": {
+                  "transform": "translate(29 44)"
+                },
+                "animations": [
+                  {
+                    "name": "blink",
+                    "duration": 4.5,
+                    "tracks": {
+                      "opacity": {
+                        "keyframes": [
+                          {
+                            "at": 0,
+                            "value": 1
+                          },
+                          {
+                            "at": 92,
+                            "value": 1
+                          },
+                          {
+                            "at": 94,
+                            "value": 0
+                          },
+                          {
+                            "at": 98,
+                            "value": 0
+                          },
+                          {
+                            "at": 100,
+                            "value": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "mouth",
+                "type": "component",
+                "attributes": {
+                  "transform": "translate(29 64)"
+                }
+              },
+              {
+                "name": "top",
+                "type": "component"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "width": 128,
+    "height": 128
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "chest": {
+      "width": 128,
+      "height": 128,
+      "probability": 90,
+      "variants": {
+        "buttons": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44.5 88.6H62v10H44.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "screen"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M67 88.6h5v5h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M67 96.1h5v5h-5z",
+                "fill": "#ff6b6b"
+              }
+            }
+          ]
+        },
+        "dial": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52 86.1h15v15H52z",
+                "fill": {
+                  "type": "color",
+                  "name": "screen"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M57 91.1h5v5h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M62 88.6h2.5v2.5H62z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "heart": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52 88.6h5v5h-5zm10 0h5v5h-5zm-12.5 5h20v5h-20zm2.5 5h15v2.5H52zm5 2.5h5v2.5h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                },
+                "opacity": ".9"
+              }
+            }
+          ]
+        },
+        "screen": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44.5 86.1h30v15h-30z",
+                "fill": {
+                  "type": "color",
+                  "name": "screen"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 91.1h25v2.5H47z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                },
+                "opacity": ".6"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 96.1h5v2.5h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "slot": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 88.6h25v5H47z",
+                "fill": "#000000",
+                "fill-opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.5 96.1h5v5h-5zm15 0h5v5h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                },
+                "opacity": ".8"
+              }
+            }
+          ]
+        },
+        "vents": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 88.6h25v2.5H47zm0 5h25v2.5H47zm0 5h25v2.5H47z",
+                "fill": "#000000",
+                "fill-opacity": ".3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 60,
+      "height": 15,
+      "variants": {
+        "cyclops": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 0h10v2.5h2.5v10H35V15H25v-2.5h-2.5v-10H25z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27.5 5h5v5h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".92"
+              }
+            }
+          ]
+        },
+        "happy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 2.5h10V5H10zM10 5h2.5v2.5H10zm7.5 0H20v2.5h-2.5zM40 2.5h10V5H40zM40 5h2.5v2.5H40zm7.5 0H50v2.5h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "plus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 2.5H15V10h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 5h7.5v2.5H10zm32.5-2.5H45V10h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40 5h7.5v2.5H40z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 2.5h5V5H20v5h-2.5v2.5h-5V10H10V5h2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 5h5v5h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".92"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 2.5h5V5H50v5h-2.5v2.5h-5V10H40V5h2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 5h5v5h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".92"
+              }
+            }
+          ]
+        },
+        "sleepy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 7.5h10v5H10zm30 0h10v5H40z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "square": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7.5 2.5H20v10H7.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 5h5v5h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".92"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40 2.5h12.5v10H40z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 5h5v5h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".92"
+              }
+            }
+          ]
+        },
+        "visor": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 2.5h40V5h2.5v5H50v2.5H10V10H7.5V5H10z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                },
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 5h5v5h-5zm30 0h5v5h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 60,
+      "height": 10,
+      "variants": {
+        "grill": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22.5 2.5H25v5h-2.5zm5 0H30v5h-2.5zm5 0H35v5h-2.5zm5 0H40v5h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22.5 2.5h15V5h-15z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M20 0h2.5v2.5H20zm2.5 2.5h15V5h-15zm15-2.5H40v2.5h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "speaker": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22.5 2.5H25V5h-2.5zm5 0H30V5h-2.5zm5 0H35V5h-2.5zm5 0H40V5h-2.5zM25 5h2.5v2.5H25zm5 0h2.5v2.5H30zm5 0h2.5v2.5H35z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        },
+        "zigzag": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M20 2.5h2.5V5H20zM22.5 5H25v2.5h-2.5zM25 2.5h2.5V5H25zM27.5 5H30v2.5h-2.5zM30 2.5h2.5V5H30zM32.5 5H35v2.5h-2.5zM35 2.5h2.5V5H35zM37.5 5H40v2.5h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "top": {
+      "width": 128,
+      "height": 128,
+      "probability": 92,
+      "variants": {
+        "antenna": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61 12.9h5v12.5h-5zm0 0h5l1-.8h-5zm5 0 1-.8v12.5l-1 .8z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61 12.9h5l1-.8h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m66 12.9 1-.8v12.5l-1 .8z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 5.8h10v7.5H58zm0 0h10l2-1.6H60zm10 0 2-1.6v7.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 5.8h10l2-1.6H60z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m68 5.8 2-1.6v7.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        },
+        "dish": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61 20.4h5v5h-5zm0 0h5l1-.8h-5zm5 0 1-.8v5l-1 .8z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61 20.4h5l1-.8h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m66 20.4 1-.8v5l-1 .8z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.5 16.2h30v5h-30zm0 0h30l3-2.4h-30zm30 0 3-2.4v5l-3 2.4z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.5 16.2h30l3-2.4h-30z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m77.5 16.2 3-2.4v5l-3 2.4z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.5 13.3h5v2.5h-5zm0 0h5l2-1.6h-5zm5 0 2-1.6v2.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.5 13.3h5l2-1.6h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m65.5 13.3 2-1.6v2.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        },
+        "fin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.5 29.4h10v2h-10z",
+                "fill": "#000000",
+                "fill-opacity": ".16"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.5 16.9h10v12.5h-10zm0 0h10L74 8.5H64zm10 0L74 8.5V21l-10.5 8.4z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.5 16.9h10L74 8.5H64z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M63.5 16.9 74 8.5V21l-10.5 8.4z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        },
+        "lightbar": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M48 20.8h30v5H48zm0 0h30l2-1.6H50zm30 0 2-1.6v5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M48 20.8h30l2-1.6H50z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m78 20.8 2-1.6v5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.5 18.3h5v2.5h-5zm0 0h5l2-1.6h-5zm5 0 2-1.6v2.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.5 18.3h5l2-1.6h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m55.5 18.3 2-1.6v2.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.5 18.3h5v2.5h-5zm0 0h5l2-1.6h-5zm5 0 2-1.6v2.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.5 18.3h5l2-1.6h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m65.5 18.3 2-1.6v2.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M70.5 18.3h5v2.5h-5zm0 0h5l2-1.6h-5zm5 0 2-1.6v2.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M70.5 18.3h5l2-1.6h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m75.5 18.3 2-1.6v2.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        },
+        "siren": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.5 23.7h20v2.5h-20zm0 0h20l3-2.4h-20zm20 0 3-2.4v2.5l-3 2.4z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.5 23.7h20l3-2.4h-20z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m72.5 23.7 3-2.4v2.5l-3 2.4z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.5 15.8h15v7.5h-15zm0 0h15l2-1.6h-15zm15 0 2-1.6v7.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.5 15.8h15l2-1.6h-15z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m70.5 15.8 2-1.6v7.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        },
+        "studs": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35.5 18.3H43v7.5h-7.5zm0 0H43l2-1.6h-7.5zm7.5 0 2-1.6v7.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35.5 18.3H43l2-1.6h-7.5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m43 18.3 2-1.6v7.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M83 18.3h7.5v7.5H83zm0 0h7.5l2-1.6H85zm7.5 0 2-1.6v7.5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M83 18.3h7.5l2-1.6H85z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m90.5 18.3 2-1.6v7.5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        },
+        "twin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46 15.4h5v10h-5zm0 0h5l1-.8h-5zm5 0 1-.8v10l-1 .8z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46 15.4h5l1-.8h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m51 15.4 1-.8v10l-1 .8z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43 10.8h10v5H43zm0 0h10l2-1.6H45zm10 0 2-1.6v5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43 10.8h10l2-1.6H45z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m53 10.8 2-1.6v5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M76 15.4h5v10h-5zm0 0h5l1-.8h-5zm5 0 1-.8v10l-1 .8z",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M76 15.4h5l1-.8h-5z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m81 15.4 1-.8v10l-1 .8z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M73 10.8h10v5H73zm0 0h10l2-1.6H75zm10 0 2-1.6v5l-2 1.6z",
+                "fill": {
+                  "type": "color",
+                  "name": "glow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M73 10.8h10l2-1.6H75z",
+                "fill": "#ffffff",
+                "fill-opacity": ".38"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m83 10.8 2-1.6v5l-2 1.6z",
+                "fill": "#000000",
+                "fill-opacity": ".24"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#b6e3f4",
+        "#c0aede",
+        "#d1d4f9",
+        "#ffd5dc",
+        "#ffdfbf"
+      ]
+    },
+    "accent": {
+      "values": [
+        "#243b53",
+        "#2f3b4c",
+        "#343a40",
+        "#495057",
+        "#5f6b7a",
+        "#7a4a2d"
+      ]
+    },
+    "body": {
+      "values": [
+        "#63e6be",
+        "#69db7c",
+        "#74c0fc",
+        "#aeb8c2",
+        "#b6a6f5",
+        "#e9ecef",
+        "#ff9d9d",
+        "#ffd43b"
+      ]
+    },
+    "glow": {
+      "notEqualTo": [
+        "body"
+      ],
+      "values": [
+        "#3bc9db",
+        "#69db7c",
+        "#74c0fc",
+        "#e599f7",
+        "#ff6b6b",
+        "#ffd43b",
+        "#fff3bf"
+      ]
+    },
+    "screen": {
+      "values": [
+        "#101c17",
+        "#161a21",
+        "#1a1430",
+        "#211016"
+      ]
+    }
+  }
+}

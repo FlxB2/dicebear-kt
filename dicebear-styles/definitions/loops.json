@@ -1,0 +1,1984 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/loops.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Loops” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Loops",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "pattern",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(4 4)"
+        }
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "pattern": {
+      "width": 92,
+      "height": 92,
+      "variants": {
+        "alt": {
+          "elements": [
+            {
+              "name": "tile",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(4 4)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 26,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile02",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(32 4)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 34,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile03",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(60 4)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 43,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile04",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(4 32)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 26,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile05",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(32 32)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 34,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile06",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(60 32)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 43,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile07",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(4 60)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 26,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile08",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(32 60)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 34,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tile09",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(60 60)"
+              },
+              "animations": [
+                {
+                  "name": "turn",
+                  "duration": 43,
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 17,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 23,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 42,
+                          "value": 90,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 48,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 67,
+                          "value": 180.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 73,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 92,
+                          "value": 270,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 98,
+                          "value": 360.00001,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 360.00001
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 0
+        },
+        "default": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "style": "mix-blend-mode:overlay"
+              },
+              "children": [
+                {
+                  "name": "tile",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4 4)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 26,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile02",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(32 4)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 34,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile03",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(60 4)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 43,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile04",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4 32)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 26,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile05",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(32 32)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 34,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile06",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(60 32)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 43,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile07",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4 60)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 26,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile08",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(32 60)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 34,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile09",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(60 60)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 43,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".5"
+              },
+              "children": [
+                {
+                  "name": "tile",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4 4)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 26,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile02",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(32 4)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 34,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile03",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(60 4)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 43,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile04",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4 32)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 26,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile05",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(32 32)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 34,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile06",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(60 32)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 43,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile07",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(4 60)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 26,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile08",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(32 60)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 34,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "tile09",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(60 60)"
+                  },
+                  "animations": [
+                    {
+                      "name": "turn",
+                      "duration": 43,
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 17,
+                              "value": 0,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 23,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 42,
+                              "value": 90,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 48,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 67,
+                              "value": 180.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 73,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 92,
+                              "value": 270,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 98,
+                              "value": 360.00001,
+                              "easing": "easeInOut"
+                            },
+                            {
+                              "at": 100,
+                              "value": 360.00001
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "tile": {
+      "width": 28,
+      "height": 28,
+      "rotate": {
+        "min": 0,
+        "max": 90,
+        "step": 90
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 14A14 14 0 0 1 14 0m0 28a14 14 0 0 0 14-14",
+                "stroke": {
+                  "type": "color",
+                  "name": "line"
+                },
+                "stroke-width": "8"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "tile02": {
+      "extends": "tile"
+    },
+    "tile03": {
+      "extends": "tile"
+    },
+    "tile04": {
+      "extends": "tile"
+    },
+    "tile05": {
+      "extends": "tile"
+    },
+    "tile06": {
+      "extends": "tile"
+    },
+    "tile07": {
+      "extends": "tile"
+    },
+    "tile08": {
+      "extends": "tile"
+    },
+    "tile09": {
+      "extends": "tile"
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#047857",
+        "#0f766e",
+        "#1d4ed8",
+        "#1e293b",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#b45309",
+        "#be123c",
+        "#be185d",
+        "#c2410c"
+      ]
+    },
+    "line": {
+      "contrastTo": "background",
+      "values": [
+        "#ffffff",
+        "#000000"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3616 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/sprouts.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Sprouts” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Sprouts",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "plant",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(17 9)"
+        },
+        "animations": [
+          {
+            "name": "sway",
+            "duration": 4.4,
+            "tracks": {
+              "translateX": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 12.5,
+                    "value": -1.0305
+                  },
+                  {
+                    "at": 25,
+                    "value": -1.5049
+                  },
+                  {
+                    "at": 75,
+                    "value": 1.5049
+                  },
+                  {
+                    "at": 87.5,
+                    "value": 1.0305
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              },
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 25,
+                    "value": 0.0328
+                  },
+                  {
+                    "at": 75,
+                    "value": 0.0328
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              },
+              "rotate": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0,
+                    "easing": "easeOut"
+                  },
+                  {
+                    "at": 25,
+                    "value": -2.5,
+                    "easing": "easeInOut"
+                  },
+                  {
+                    "at": 75,
+                    "value": 2.5,
+                    "easing": "easeIn"
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "pot",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(17 58)"
+        }
+      },
+      {
+        "name": "pattern",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(36 85)"
+        }
+      },
+      {
+        "name": "cheeks",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(29 80)"
+        }
+      },
+      {
+        "name": "eyes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(30 67)"
+        },
+        "animations": [
+          {
+            "name": "blink",
+            "duration": 4.6,
+            "tracks": {
+              "scaleY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 1
+                  },
+                  {
+                    "at": 92,
+                    "value": 1
+                  },
+                  {
+                    "at": 95,
+                    "value": 0.15
+                  },
+                  {
+                    "at": 97,
+                    "value": 0.15
+                  },
+                  {
+                    "at": 100,
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "mouth",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(40 81)"
+        }
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "cheeks": {
+      "width": 42,
+      "height": 7,
+      "probability": 30,
+      "variants": {
+        "blush": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 7a3 3 0 0 0 0-6 3 3 0 0 0 0 6m34 0a3 3 0 0 0 0-6 3 3 0 0 0 0 6",
+                "fill": "#ffffff",
+                "opacity": ".3"
+              }
+            }
+          ]
+        },
+        "blushBig": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 6.7c2.21 0 4-1.209 4-2.7s-1.79-2.7-4-2.7S.5 2.509.5 4s1.79 2.7 4 2.7m33 0c2.21 0 4-1.209 4-2.7s-1.79-2.7-4-2.7-4 1.209-4 2.7 1.79 2.7 4 2.7",
+                "fill": "#ffffff",
+                "opacity": ".3"
+              }
+            }
+          ]
+        },
+        "freckles": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2.5 4.2a1.2 1.2 0 0 0 0-2.4 1.2 1.2 0 0 0 0 2.4M6 2.7A1.2 1.2 0 1 0 6 .3a1.2 1.2 0 0 0 0 2.4m-1.5 4a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m35-2.5a1.2 1.2 0 0 0 0-2.4 1.2 1.2 0 0 0 0 2.4M36 2.7a1.2 1.2 0 0 0 0-2.4 1.2 1.2 0 0 0 0 2.4m1.5 4a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4",
+                "fill": "#ffffff",
+                "opacity": ".35"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 40,
+      "height": 17,
+      "variants": {
+        "angry": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 16A6 6 0 0 0 9 4a6 6 0 0 0 0 12m22 0a6 6 0 0 0 0-12 6 6 0 0 0 0 12",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 12.6a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2m22 0a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m3 2 12 4m22-4L25 6",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "bigPupils": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 16A6 6 0 0 0 9 4a6 6 0 0 0 0 12m22 0a6 6 0 0 0 0-12 6 6 0 0 0 0 12",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 14.3a4.3 4.3 0 0 0 0-8.6 4.3 4.3 0 0 0 0 8.6m22 0a4.3 4.3 0 0 0 0-8.6 4.3 4.3 0 0 0 0 8.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "close": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 12.6a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2m10 0a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "closedLine": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 9q6 5 12 0m10 0q6 5 12 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "dots": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 13.4a3.4 3.4 0 0 0 0-6.8 3.4 3.4 0 0 0 0 6.8m22 0a3.4 3.4 0 0 0 0-6.8 3.4 3.4 0 0 0 0 6.8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "happy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 12q6-8 12 0m10 0q6-8 12 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 16A6 6 0 0 0 9 4a6 6 0 0 0 0 12m22 0a6 6 0 0 0 0-12 6 6 0 0 0 0 12",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 12.6a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2m22 0a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "sideeye": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 16A6 6 0 0 0 9 4a6 6 0 0 0 0 12m22 0a6 6 0 0 0 0-12 6 6 0 0 0 0 12",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 12.6a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2m22 0a2.6 2.6 0 0 0 0-5.2 2.6 2.6 0 0 0 0 5.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "sleepy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 10a6 6 0 0 0 12 0zm22 0a6 6 0 0 0 12 0z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6.4 10a2.6 2.6 0 1 0 5.2 0zm22 0a2.6 2.6 0 1 0 5.2 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 10h14m8 0h14",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 17c3.038 0 5.5-3.134 5.5-7S12.038 3 9 3s-5.5 3.134-5.5 7 2.462 7 5.5 7m22 0c3.038 0 5.5-3.134 5.5-7S34.038 3 31 3s-5.5 3.134-5.5 7 2.462 7 5.5 7",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 12.4a2.4 2.4 0 0 0 0-4.8 2.4 2.4 0 0 0 0 4.8m22 0a2.4 2.4 0 0 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "wink": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "10",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "10",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 12q6-8 12 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 20,
+      "height": 12,
+      "variants": {
+        "catMouth": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 4q3.5 3 7 0 3.5 3 7 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "frown": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 8q8-7 16 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "grin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1.5 3a8.5 8.5 0 0 0 17 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 7a4 4 0 0 0 8 0z",
+                "fill": "#fb7185"
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 5h12",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "ooh": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "5.5",
+                "r": "3.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "open": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "5.5",
+                "rx": "5",
+                "ry": "5.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "8",
+                "rx": "2.7",
+                "ry": "2",
+                "fill": "#fb7185"
+              }
+            }
+          ]
+        },
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 3q8 7 16 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "tinySmile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 4q4 3 8 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "tongue": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 3.5q6 4.5 12 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6.5 5.5a3.5 3.5 0 0 0 7 0z",
+                "fill": "#fb7185"
+              }
+            }
+          ]
+        },
+        "tooth": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 4h12",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11.8 4H8.2A1.2 1.2 0 0 0 7 5.2v2.6A1.2 1.2 0 0 0 8.2 9h3.6A1.2 1.2 0 0 0 13 7.8V5.2A1.2 1.2 0 0 0 11.8 4",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "wavy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 5q4-3 8 0t8 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "pattern": {
+      "width": 28,
+      "height": 15,
+      "probability": 45,
+      "variants": {
+        "band": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24.25 4.5H3.75a2.75 2.75 0 0 0 0 5.5h20.5a2.75 2.75 0 0 0 0-5.5",
+                "fill": "#ffffff",
+                "opacity": ".18"
+              }
+            }
+          ]
+        },
+        "chevron": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m2 8 4-4 4 4 4-4 4 4 4-4 4 4",
+                "stroke": "#ffffff",
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            }
+          ]
+        },
+        "dots": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 9.2a2.2 2.2 0 0 0 0-4.4 2.2 2.2 0 0 0 0 4.4m10 2.5a2.2 2.2 0 0 0 0-4.4 2.2 2.2 0 0 0 0 4.4m10-2.5a2.2 2.2 0 0 0 0-4.4 2.2 2.2 0 0 0 0 4.4",
+                "fill": "#ffffff",
+                "opacity": ".25"
+              }
+            }
+          ]
+        },
+        "ring": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "14",
+                "cy": "7.5",
+                "r": "6",
+                "stroke": "#ffffff",
+                "stroke-width": "2.5",
+                "opacity": ".2"
+              }
+            }
+          ]
+        },
+        "speckles": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 6.4a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m6 4.5a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m6-5a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m5 4.5a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m5-4a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8",
+                "fill": "#ffffff",
+                "opacity": ".3"
+              }
+            }
+          ]
+        },
+        "stripes": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 5.5a2.5 2.5 0 0 0-5 0v7a2.5 2.5 0 0 0 5 0zm11 0a2.5 2.5 0 0 0-5 0v7a2.5 2.5 0 0 0 5 0z",
+                "fill": "#ffffff",
+                "opacity": ".18"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "plant": {
+      "width": 68,
+      "height": 69,
+      "variants": {
+        "ball": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "48.5",
+                    "r": "16",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantBall-a)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M20 48.5a16 16 0 0 0 32 0 16 16 0 0 0-32 0M18 46a16 16 0 0 0 32 0 16 16 0 0 0-32 0",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 43.8a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m12 0a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-6 8a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-7 2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m14 2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-7-25.2a2.6 2.6 0 1 0 0-5.2 2.6 2.6 0 0 0 0 5.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "23.5",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31.7",
+                    "cy": "26.6",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "33.4",
+                    "cy": "31.6",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "38.6",
+                    "cy": "31.6",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "40.3",
+                    "cy": "26.6",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "45",
+                "r": "16",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantBall-b)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M17 45a16 16 0 0 0 32 0 16 16 0 0 0-32 0m-2-2.5a16 16 0 0 0 32 0 16 16 0 0 0-32 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27 40.3a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m12 0a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-6 8a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-7 2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m14 2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6",
+                "fill": "#ffffff",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "24.5",
+                "r": "2.6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "20",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "28.7",
+                "cy": "23.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "30.4",
+                "cy": "28.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.6",
+                "cy": "28.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "37.3",
+                "cy": "23.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBall-a"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "19",
+                        "cy": "39.5",
+                        "r": "16",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBall-b"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "33",
+                        "cy": "45",
+                        "r": "16",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "buds": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M32 66.5c-2-14-3-24-7-31m15 31c2-16 3-26 7-35",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 50.5c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4M24 36a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9m24-4a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29 63c-2-14-3-24-7-31m15 31c2-16 3-26 7-35",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 47c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M21 32.5a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9m24-4a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            }
+          ]
+        },
+        "bush": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "26",
+                    "cy": "46.5",
+                    "r": "13",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantBush-a)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M13 46.5a13 13 0 0 0 26 0 13 13 0 0 0-26 0M11 44a13 13 0 0 0 26 0 13 13 0 0 0-26 0",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "46",
+                    "cy": "46.5",
+                    "r": "13",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantBush-b)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 46.5a13 13 0 0 0 26 0 13 13 0 0 0-26 0M31 44a13 13 0 0 0 26 0 13 13 0 0 0-26 0",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "34.5",
+                    "r": "15",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantBush-c)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M21 34.5a15.001 15.001 0 1 0 30.002 0A15.001 15.001 0 0 0 21 34.5M19 32a15 15 0 0 0 30 0 15 15 0 0 0-30 0",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 34.7a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4m13 8a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4m-20 10a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "23",
+                "cy": "43",
+                "r": "13",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantBush-d)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M10 43a13 13 0 0 0 26 0 13 13 0 0 0-26 0m-2-2.5a13 13 0 0 0 26 0 13 13 0 0 0-26 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "43",
+                "cy": "43",
+                "r": "13",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantBush-e)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 43a13 13 0 0 0 26 0 13 13 0 0 0-26 0m-2-2.5a13 13 0 0 0 26 0 13 13 0 0 0-26 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "31",
+                "r": "15",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantBush-f)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 31a15 15 0 0 0 30 0 15 15 0 0 0-30 0m-2-2.5a15.001 15.001 0 1 0 30.002 0A15.001 15.001 0 0 0 16 28.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27 31.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4m13 8a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4m-20 10a2.2 2.2 0 1 0 0-4.398 2.2 2.2 0 0 0 0 4.398",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBush-a"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "9",
+                        "cy": "37.5",
+                        "r": "13",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBush-b"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "29",
+                        "cy": "37.5",
+                        "r": "13",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBush-c"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "19",
+                        "cy": "25.5",
+                        "r": "15",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBush-d"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "23",
+                        "cy": "43",
+                        "r": "13",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBush-e"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "43",
+                        "cy": "43",
+                        "r": "13",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantBush-f"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "33",
+                        "cy": "31",
+                        "r": "15",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "cactus": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M28 66.5v-40a8 8 0 0 1 16 0v40z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantCactus-a)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M28 66.5v-40a8 8 0 0 1 16 0v40zM26 64V24a8 8 0 0 1 16 0v40z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M28 42.5h-8v-10m24 16h8v-10",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "8",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M32 27.7a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m8 6a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-4 8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-5 10a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m10 6a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 63V23a8 8 0 0 1 16 0v40z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantCactus-b)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M25 63V23a8 8 0 0 1 16 0v40zm-2-2.5v-40a8 8 0 0 1 16 0v40z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 39h-8V29m24 16h8V35",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "8",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29 24.2a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m8 6a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-4 8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-5 10a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m10 6a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4",
+                "fill": "#ffffff",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantCactus-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M11 57.5v-40a8 8 0 0 1 16 0v40z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantCactus-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M25 63V23a8 8 0 0 1 16 0v40z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "flower": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 66.5v-32",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 52.5c-5.6 0-9.8-4.2-9.8-9.8 5.6 0 9.8 3.5 9.8 9.8m0 0c5.6 0 9.8-4.2 9.8-9.8-5.6 0-9.8 3.5-9.8 9.8m0-33a7 7 0 0 0 0-14 7 7 0 0 0 0 14",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M27.5 25.5a7 7 0 0 0 0-14 7 7 0 0 0 0 14m17 0a7 7 0 0 0 0-14 7 7 0 0 0 0 14",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "30.5",
+                    "cy": "28",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "41.5",
+                    "cy": "28",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "21",
+                    "r": "5.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 63V31",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 49c-5.6 0-9.8-4.2-9.8-9.8 5.6 0 9.8 3.5 9.8 9.8m0 0c5.6 0 9.8-4.2 9.8-9.8-5.6 0-9.8 3.5-9.8 9.8",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "9",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24.5 22a7 7 0 0 0 0-14 7 7 0 0 0 0 14m17 0a7 7 0 0 0 0-14 7 7 0 0 0 0 14",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "27.5",
+                "cy": "24.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "38.5",
+                "cy": "24.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "17.5",
+                "r": "5.5",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "grass": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M30 66.5c-2-12-4-20-8-28m14 28v-34m6 34c2-12 4-20 8-28m-17 28c-2-10-4-16-7-20m13 20c2-10 4-16 7-20",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27 63c-2-12-4-20-8-28m14 28V29m6 34c2-12 4-20 8-28M30 63c-2-10-4-16-7-20m13 20c2-10 4-16 7-20",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "palm": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36 66.5v-38m0 0c8-4 16-2 22 6m-22-6c-8-4-16-2-22 6m22-6c-4-10-12-14-20-12m20 12c4-10 12-14 20-12m-20 12v-10",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 63V25m0 0c8-4 16-2 22 6m-22-6c-8-4-16-2-22 6m22-6c-4-10-12-14-20-12m20 12c4-10 12-14 20-12M33 25V15",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "seedling": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 66.5v-22",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 44.5c-2-18 4-34 16-38 2 14-6 32-16 38",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantSeedling-a)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 44.5c-2-18 4-34 16-38 2 14-6 32-16 38M34 42C32 24 38 8 50 4c2 14-6 32-16 38",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 44.5c-7-4-11-10-11-17 7 1 11 7 11 17",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 63V41",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 41C31 23 37 7 49 3c2 14-6 32-16 38",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSeedling-b)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 41C31 23 37 7 49 3c2 14-6 32-16 38m-2-2.5c-2-18 4-34 16-38 2 14-6 32-16 38",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 41c-7-4-11-10-11-17 7 1 11 7 11 17",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSeedling-c)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 41c-7-4-11-10-11-17 7 1 11 7 11 17m-2-2.5c-7-4-11-10-11-17 7 1 11 7 11 17",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSeedling-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M19 35.5c-2-18 4-34 16-38 2 14-6 32-16 38",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSeedling-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 41C31 23 37 7 49 3c2 14-6 32-16 38",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSeedling-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 41c-7-4-11-10-11-17 7 1 11 7 11 17",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sprout": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 66.5v-32",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 34.5c-8 0-14-6-14-14 8 0 14 5 14 14m0 0c8 0 14-6 14-14-8 0-14 5-14 14m0 14c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 63V31",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 31c-8 0-14-6-14-14 8 0 14 5 14 14m0 0c8 0 14-6 14-14-8 0-14 5-14 14m0 14c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            }
+          ]
+        },
+        "succulent": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 64.5C25.768 61.136 13.512 50.852 8.422 41.36 18.654 44.723 30.911 55.008 36 64.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantSucculent-a)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5C25.768 61.136 13.512 50.852 8.422 41.36 18.654 44.723 30.911 55.008 36 64.5m-3.2-.075c-10.233-3.364-22.49-13.648-27.579-23.14 10.231 3.364 22.488 13.648 27.577 23.14",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 64.5c-7.852-7.373-14.613-21.874-15.214-32.627C28.637 39.245 35.399 53.746 36 64.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantSucculent-b)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5c-7.851-7.373-14.613-21.874-15.214-32.627C28.637 39.245 35.399 53.746 36 64.5m-2.87-1.42c-7.85-7.373-14.613-21.874-15.213-32.628C25.768 37.825 32.53 52.326 33.13 63.08",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 64.5c-4-10-4-26 0-36 4 10 4 26 0 36",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 64.5c.601-10.754 7.363-25.254 15.214-32.627C50.614 42.626 43.851 57.127 36 64.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantSucculent-c)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5c.6-10.754 7.363-25.254 15.214-32.627C50.614 42.626 43.851 57.127 36 64.5m-.756-3.111c.6-10.754 7.363-25.254 15.214-32.627-.6 10.753-7.363 25.254-15.214 32.627",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 64.5c5.09-9.492 17.346-19.777 27.578-23.14C58.488 50.852 46.23 61.136 36 64.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantSucculent-d)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5c5.09-9.492 17.346-19.777 27.578-23.14C58.488 50.852 46.23 61.136 36 64.5m.63-3.139c5.089-9.492 17.345-19.777 27.577-23.14-5.09 9.492-17.345 19.776-27.577 23.14",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 61C22.77 57.636 10.512 47.352 5.423 37.86 15.654 41.224 27.91 51.508 33 61",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSucculent-e)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 61C22.77 57.636 10.512 47.352 5.423 37.86 15.654 41.224 27.91 51.508 33 61m-3.2-.075C19.568 57.562 7.31 47.277 2.222 37.785 12.454 41.149 24.71 51.433 29.8 60.925",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 61c-7.851-7.373-14.613-21.873-15.214-32.627C25.637 35.746 32.399 50.246 33 61",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSucculent-f)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 61c-7.851-7.373-14.613-21.873-15.214-32.627C25.637 35.746 32.399 50.246 33 61m-2.87-1.42c-7.85-7.373-14.612-21.874-15.213-32.627C22.768 34.325 29.53 48.826 30.13 59.58",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 61c-4-10-4-26 0-36 4 10 4 26 0 36",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSucculent-g)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 61c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 61c.601-10.754 7.363-25.254 15.214-32.627C47.614 39.127 40.851 53.627 33 61",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSucculent-h)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 61c.6-10.754 7.363-25.254 15.214-32.627C47.614 39.127 40.851 53.627 33 61m-.756-3.11c.6-10.754 7.363-25.255 15.214-32.628-.6 10.754-7.363 25.256-15.214 32.628",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 61c5.09-9.492 17.346-19.776 27.578-23.14C55.488 47.352 43.232 57.637 33 61",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantSucculent-i)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 61c5.09-9.492 17.346-19.776 27.578-23.14C55.488 47.352 43.232 57.637 33 61m.63-3.139c5.089-9.492 17.346-19.776 27.577-23.14-5.089 9.492-17.346 19.777-27.577 23.14",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5C25.768 61.136 13.512 50.852 8.422 41.36 18.654 44.723 30.911 55.008 36 64.5",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5c-7.852-7.373-14.613-21.874-15.214-32.627C28.637 39.245 35.399 53.746 36 64.5",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-c"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5c.601-10.754 7.363-25.254 15.214-32.627C50.614 42.626 43.851 57.127 36 64.5",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-d"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M36 64.5c5.09-9.492 17.346-19.777 27.578-23.14C58.488 50.852 46.23 61.136 36 64.5",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-e"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 61C22.77 57.636 10.512 47.352 5.423 37.86 15.654 41.224 27.91 51.508 33 61",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-f"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 61c-7.851-7.373-14.613-21.873-15.214-32.627C25.637 35.746 32.399 50.246 33 61",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-g"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 61c-4-10-4-26 0-36 4 10 4 26 0 36",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-h"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 61c.601-10.754 7.363-25.254 15.214-32.627C47.614 39.127 40.851 53.627 33 61",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantSucculent-i"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 61c5.09-9.492 17.346-19.776 27.578-23.14C55.488 47.352 43.232 57.637 33 61",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tall": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 66.5v-56",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 28.5c-6 0-10-4-10-10 6 0 10 4 10 10m0 12c6 0 10-4 10-10-6 0-10 4-10 10m0 12c-6 0-10-4-10-10 6 0 10 4 10 10",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 63V7",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 25c-6 0-10-4-10-10 6 0 10 4 10 10m0 12c6 0 10-4 10-10-6 0-10 4-10 10m0 12c-6 0-10-4-10-10 6 0 10 4 10 10",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            }
+          ]
+        },
+        "tulip": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".15"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 66.5v-30",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M36 54.5c-6.4 0-11.2-4.8-11.2-11.2 6.4 0 11.2 4 11.2 11.2m0 0c6.4 0 11.2-4.8 11.2-11.2-6.4 0-11.2 4-11.2 11.2m-10-26c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "mask": "url(#plantTulip-a)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M26 28.5c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8M24 26c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 63V33",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 51c-6.4 0-11.2-4.8-11.2-11.2 6.4 0 11.2 4 11.2 11.2m0 0c6.4 0 11.2-4.8 11.2-11.2-6.4 0-11.2 4-11.2 11.2",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M23 25c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#plantTulip-b)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M23 25c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8m-2-2.5c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantTulip-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M9 19.5c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "plantTulip-b"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M23 25c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "pot": {
+      "width": 66,
+      "height": 52,
+      "variants": {
+        "bag": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 9.5c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H27q-8 0-10-6c-4-8-4-22-1-36",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M13 6c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H24q-8 0-10-6c-4-8-4-22-1-36",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potBag-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M13 6c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H24q-8 0-10-6c-4-8-4-22-1-36m3 3.5c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H27q-8 0-10-6c-4-8-4-22-1-36",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M13 6c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H24q-8 0-10-6c-4-8-4-22-1-36m-3-3.5c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H21q-8 0-10-6c-4-8-4-22-1-36",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potBag-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M13 6c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H24q-8 0-10-6c-4-8-4-22-1-36",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "bowl": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 7.5h52c0 28-10 44-26 44s-26-16-26-44",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 4h52c0 28-10 44-26 44S7 32 7 4",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potBowl-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M7 4h52c0 28-10 44-26 44S7 32 7 4m3 3.5h52c0 28-10 44-26 44s-26-16-26-44",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M7 4h52c0 28-10 44-26 44S7 32 7 4M4 .5h52c0 28-10 44-26 44S4 28.5 4 .5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potBowl-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M7 4h52c0 28-10 44-26 44S7 32 7 4",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "cylinder": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 7.5h44v40q0 4-4 4H18q-4 0-4-4z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 4h44v40q0 4-4 4H15q-4 0-4-4z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potCylinder-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M11 4h44v40q0 4-4 4H15q-4 0-4-4zm3 3.5h44v40q0 4-4 4H18q-4 0-4-4z",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M11 4h44v40q0 4-4 4H15q-4 0-4-4zM8 .5h44v40q0 4-4 4H12q-4 0-4-4z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potCylinder-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M11 4h44v40q0 4-4 4H15q-4 0-4-4z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "rim": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 15.5q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H16v-36z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9 12q-2 0-2-3V7q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H13V12z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potRim-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M9 12q-2 0-2-3V7q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H13V12zm3 3.5q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H16v-36z",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M9 12q-2 0-2-3V7q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H13V12zM6 8.5q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H10v-36z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potRim-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M9 12q-2 0-2-3V7q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H13V12z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36 7.5c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 4C13 4 5 16 5 26c0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potRound-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 4C13 4 5 16 5 26c0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22m3 3.5c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M33 4C13 4 5 16 5 26c0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22M30 .5c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potRound-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M33 4C13 4 5 16 5 26c0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "taper": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 7.5h52l-6 44H16z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 4h52l-6 44H13z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potTaper-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M7 4h52l-6 44H13zm3 3.5h52l-6 44H16z",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M7 4h52l-6 44H13zM4 .5h52l-6 44H10z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potTaper-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M7 4h52l-6 44H13z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tub": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 7.5h60l-8 44H14z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 4h60l-8 44H11z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#potTub-a)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M3 4h60l-8 44H11zm3 3.5h60l-8 44H14z",
+                    "fill": "#ffffff",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".16"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M3 4h60l-8 44H11zM0 .5h60l-8 44H8z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "opacity": ".1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "potTub-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M3 4h60l-8 44H11z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#047857",
+        "#0f766e",
+        "#1d4ed8",
+        "#1e293b",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#b45309",
+        "#be123c",
+        "#be185d",
+        "#c2410c"
+      ]
+    },
+    "bloom": {
+      "values": [
+        "#c4b5fd",
+        "#f0abfc",
+        "#f9a8d4",
+        "#fb7185",
+        "#fca5a5",
+        "#fcd34d",
+        "#fda4af",
+        "#fdba74"
+      ]
+    },
+    "ink": {
+      "values": [
+        "#1e293b"
+      ]
+    },
+    "plant": {
+      "values": [
+        "#10b981",
+        "#22c55e",
+        "#2dd4bf",
+        "#34d399",
+        "#4ade80",
+        "#6ee7b9",
+        "#86efac",
+        "#a3e635"
+      ]
+    },
+    "pot": {
+      "values": [
+        "#5eead4",
+        "#6ee7b9",
+        "#7dd3fc",
+        "#a5b4fc",
+        "#bef264",
+        "#c4b5fd",
+        "#e2e8f0",
+        "#f0abfc",
+        "#fca5a5",
+        "#fcd34d",
+        "#fda4af",
+        "#fdba74"
+      ]
+    }
+  }
+}

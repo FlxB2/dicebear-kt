@@ -1,0 +1,616 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/weave.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Weave” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Weave",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "weave",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "bandA": {
+      "width": 27,
+      "height": 160,
+      "translate": {
+        "x": {
+          "min": -155.5556,
+          "max": 155.5556
+        }
+      },
+      "variants": {
+        "medium": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0h18v160H4z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorA"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "thin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0h12v160H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorA"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "twin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorA"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h26v160H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorA"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bandA02": {
+      "extends": "bandA"
+    },
+    "bandB": {
+      "width": 27,
+      "height": 160,
+      "translate": {
+        "x": {
+          "min": -155.5556,
+          "max": 155.5556
+        }
+      },
+      "variants": {
+        "medium": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0h18v160H4z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "thin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0h12v160H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "twin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h26v160H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bandB02": {
+      "width": 27,
+      "height": 160,
+      "probability": 70,
+      "translate": {
+        "x": {
+          "min": -155.5556,
+          "max": 155.5556
+        }
+      },
+      "variants": {
+        "medium": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0h18v160H4z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "thin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0h12v160H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "twin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h26v160H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorB"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bandC": {
+      "width": 27,
+      "height": 160,
+      "translate": {
+        "x": {
+          "min": -155.5556,
+          "max": 155.5556
+        }
+      },
+      "variants": {
+        "medium": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0h18v160H4z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "thin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0h12v160H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "twin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h26v160H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bandC02": {
+      "width": 27,
+      "height": 160,
+      "probability": 70,
+      "translate": {
+        "x": {
+          "min": -155.5556,
+          "max": 155.5556
+        }
+      },
+      "variants": {
+        "medium": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0h18v160H4z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "thin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0h12v160H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "twin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h26v160H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "colorC"
+                },
+                "opacity": ".7"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "lattice": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "bandA",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 -30)"
+              }
+            },
+            {
+              "name": "bandB",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 -30)"
+              }
+            },
+            {
+              "name": "bandC02",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 -30)"
+              }
+            },
+            {
+              "name": "lineAccent",
+              "type": "component"
+            },
+            {
+              "name": "bandC",
+              "type": "component",
+              "attributes": {
+                "transform": "rotate(90 46.5 83.5)"
+              }
+            },
+            {
+              "name": "bandA02",
+              "type": "component",
+              "attributes": {
+                "transform": "rotate(90 46.5 83.5)"
+              }
+            },
+            {
+              "name": "bandB02",
+              "type": "component",
+              "attributes": {
+                "transform": "rotate(90 46.5 83.5)"
+              }
+            },
+            {
+              "name": "lineAccent02",
+              "type": "component",
+              "attributes": {
+                "transform": "rotate(90 50 50)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "lineAccent": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -42,
+          "max": 42
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M48.75-30h2.5v160h-2.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "line"
+                },
+                "opacity": ".95"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "lineAccent02": {
+      "extends": "lineAccent"
+    },
+    "weave": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "diagonal": {
+          "elements": [
+            {
+              "name": "lattice",
+              "type": "component",
+              "attributes": {
+                "transform": "rotate(45 50 50)"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "diagonalBack": {
+          "elements": [
+            {
+              "name": "lattice",
+              "type": "component",
+              "attributes": {
+                "transform": "rotate(-45 50 50)"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "straight": {
+          "elements": [
+            {
+              "name": "lattice",
+              "type": "component"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#e3f4fb",
+        "#e6f8ec",
+        "#f3ecfe",
+        "#fdf3d7",
+        "#ffeee9",
+        "#fff7e0"
+      ]
+    },
+    "colorA": {
+      "values": [
+        "#22d3ee",
+        "#34d399",
+        "#60a5fa",
+        "#a78bfa",
+        "#f472b6",
+        "#f87171",
+        "#facc15",
+        "#fb923c"
+      ]
+    },
+    "colorB": {
+      "notEqualTo": [
+        "colorA"
+      ],
+      "values": [
+        "#22d3ee",
+        "#34d399",
+        "#60a5fa",
+        "#a78bfa",
+        "#f472b6",
+        "#f87171",
+        "#facc15",
+        "#fb923c"
+      ]
+    },
+    "colorC": {
+      "notEqualTo": [
+        "colorA",
+        "colorB"
+      ],
+      "values": [
+        "#22d3ee",
+        "#34d399",
+        "#60a5fa",
+        "#a78bfa",
+        "#f472b6",
+        "#f87171",
+        "#facc15",
+        "#fb923c"
+      ]
+    },
+    "line": {
+      "values": [
+        "#0ea5e9",
+        "#8b5cf6",
+        "#ec4899",
+        "#f59e0b"
+      ]
+    }
+  }
+}

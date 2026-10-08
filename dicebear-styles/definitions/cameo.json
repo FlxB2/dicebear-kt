@@ -1,0 +1,791 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/cameo.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Cameo” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Cameo",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "shape",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "hair": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "bangs": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v78C4 48 14 42 26 41q24-2.25 48 0c12 1 22 7 36 17v-78z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "bowl": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "18",
+                "rx": "52",
+                "ry": "34",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "cap": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v70c28-10 42-11 60-11s32 1 60 11v-70z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "curls": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20h120v60a10.002 10.002 0 0 1-17.071 7.071A10 10 0 0 1 90 40a10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "frame": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20h120v82c-6 10-14 14-21 12-6-2-11-9-11-18v-8c0-5-4-7-10-7H32c-6 0-10 2-10 7v8c0 9-5 16-11 18-7 2-21-2-21-12z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "part": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v72c20-14 38-2 56-18l4-4 4 4c18 16 36 4 56 18v-72z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "side": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v66c24-8 40-10 54-5 18 5 42 7 66 15v-76z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "wave": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v62q20 11 40 0 20 11 40 0 20 11 40 0v-62z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "knot": {
+      "width": 100,
+      "height": 100,
+      "probability": 45,
+      "variants": {
+        "bun": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "10.5",
+                "r": "8",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "10.5",
+                "r": "8",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "buns": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "tail": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M59 15C58 7 64 2 70 5s6 11 0 15c-4 2.5-9 0-11-5",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M59 15C58 7 64 2 70 5s6 11 0 15c-4 2.5-9 0-11-5",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -3,
+          "max": 3
+        }
+      },
+      "variants": {
+        "beam": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38 63.5q12 5 24 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "calm": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 64q7.5 3.5 15 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "grin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39 60q11 15 22 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40.5 62q9.5 8 19 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "smirk": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43 66.5Q51.5 70 57.5 63",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "shape": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -3,
+        "max": 3,
+        "step": 1
+      },
+      "variants": {
+        "jaw": {
+          "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#shapeJaw-a)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "shapeJaw-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "oval": {
+          "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "rx": "33",
+                "ry": "38",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#shapeOval-a)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "shapeOval-a"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "rx": "33",
+                        "ry": "38",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "38",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#shapeRound-a)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "shapeRound-a"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "r": "38",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "squircle": {
+          "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#shapeSquircle-a)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "shapeSquircle-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "taper": {
+          "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c18 0 30 14 30 36S68 88 50 88 20 70 20 48s12-36 30-36",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#shapeTaper-a)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "shapeTaper-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 12c18 0 30 14 30 36S68 88 50 88 20 70 20 48s12-36 30-36",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "rx": "37",
+                "ry": "35",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#shapeWide-a)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "shapeWide-a"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "rx": "37",
+                        "ry": "35",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "body": {
+      "values": [
+        "#58aae1",
+        "#5ab0bf",
+        "#5ab4a4",
+        "#5ab972",
+        "#889ee4",
+        "#98ac53",
+        "#ae8fe4",
+        "#ba9f52",
+        "#d68f51",
+        "#e667de",
+        "#e68171",
+        "#e7799e"
+      ]
+    },
+    "shade": {
+      "values": [
+        "#00000057",
+        "#ffffff8f"
+      ]
+    }
+  }
+}

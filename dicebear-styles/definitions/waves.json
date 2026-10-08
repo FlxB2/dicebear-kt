@@ -1,0 +1,875 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/waves.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Waves” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Waves",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "rotation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "body": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "quartet": {
+          "elements": [
+            {
+              "name": "layer01",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50)",
+                "opacity": ".16"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 20,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer02",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 22)",
+                "opacity": ".28"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 16.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer03",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 44)",
+                "opacity": ".4"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 13.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer04",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 66)",
+                "opacity": ".52"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 11,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "quintet": {
+          "elements": [
+            {
+              "name": "layer01",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50)",
+                "opacity": ".14"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 20,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer02",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 17)",
+                "opacity": ".24"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 16.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer03",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 34)",
+                "opacity": ".34"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 13.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer04",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 51)",
+                "opacity": ".42"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 11,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer05",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 68)",
+                "opacity": ".48"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 9.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "sextet": {
+          "elements": [
+            {
+              "name": "layer01",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50)",
+                "opacity": ".12"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 20,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer02",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 14)",
+                "opacity": ".2"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 16.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer03",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 28)",
+                "opacity": ".28"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 13.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer04",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 42)",
+                "opacity": ".34"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 11,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer05",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 56)",
+                "opacity": ".4"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 9.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer06",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 70)",
+                "opacity": ".46"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 8,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "trio": {
+          "elements": [
+            {
+              "name": "layer01",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 8)",
+                "opacity": ".2"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 20,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer02",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 32)",
+                "opacity": ".35"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 16.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": 10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "layer03",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-50 56)",
+                "opacity": ".5"
+              },
+              "animations": [
+                {
+                  "name": "drift",
+                  "duration": 13.5,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 50,
+                          "value": -10,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "bodyFree": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -180,
+        "max": 180
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "body",
+              "type": "component"
+            }
+          ]
+        }
+      }
+    },
+    "bodyQuarter": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": 0,
+        "max": 270,
+        "step": 90
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "body",
+              "type": "component"
+            }
+          ]
+        }
+      }
+    },
+    "layer": {
+      "width": 200,
+      "height": 130,
+      "translate": {
+        "x": {
+          "min": -12,
+          "max": 12
+        },
+        "y": {
+          "min": -3.6923,
+          "max": 3.6923
+        }
+      },
+      "variants": {
+        "calm": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 16c28 0 52-6 84-5s72 10 116 5v114H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "wave"
+                }
+              }
+            }
+          ]
+        },
+        "ripple": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 12c6 0 12 10 18 10s12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 6 20 5v113H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "wave"
+                }
+              }
+            }
+          ]
+        },
+        "rolling": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 8c12 0 23 16 35 16S58 8 70 8s23 16 35 16 23-16 35-16 23 16 35 16c8 0 17-8 25-10v116H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "wave"
+                }
+              }
+            }
+          ]
+        },
+        "surge": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 6q36 0 62 14 25 12 52 2 30-11 54-12 19 2 32 6v114H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "wave"
+                }
+              }
+            }
+          ]
+        },
+        "swell": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 24C25 24 35 0 62 0c22 0 34 20 56 22 18 1 30-10 48-10 12 0 24 6 34 8v110H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "wave"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "layer01": {
+      "extends": "layer"
+    },
+    "layer02": {
+      "extends": "layer"
+    },
+    "layer03": {
+      "extends": "layer"
+    },
+    "layer04": {
+      "extends": "layer"
+    },
+    "layer05": {
+      "extends": "layer"
+    },
+    "layer06": {
+      "extends": "layer"
+    },
+    "rotation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "free": {
+          "elements": [
+            {
+              "name": "bodyFree",
+              "type": "component"
+            }
+          ]
+        },
+        "none": {
+          "elements": [
+            {
+              "name": "body",
+              "type": "component"
+            }
+          ],
+          "weight": 0
+        },
+        "quarter": {
+          "elements": [
+            {
+              "name": "bodyQuarter",
+              "type": "component"
+            }
+          ],
+          "weight": 0
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#047857",
+        "#0f766e",
+        "#1d4ed8",
+        "#1e293b",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#b45309",
+        "#be123c",
+        "#be185d",
+        "#c2410c"
+      ]
+    },
+    "wave": {
+      "contrastTo": "background",
+      "values": [
+        "#ffffff",
+        "#000000"
+      ]
+    }
+  }
+}

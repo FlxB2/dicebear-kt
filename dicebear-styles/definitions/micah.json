@@ -1,0 +1,3009 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/micah.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "text": "Remix of „Avatar Illustration System” (https://www.figma.com/community/file/829741575478342595) by „Micah Lanier”, licensed under „CC BY 4.0” (https://creativecommons.org/licenses/by/4.0/)"
+    },
+    "creator": {
+      "name": "Micah Lanier",
+      "url": "https://dribbble.com/micahlanier"
+    },
+    "source": {
+      "name": "Avatar Illustration System",
+      "url": "https://www.figma.com/community/file/829741575478342595"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "head",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(93.95 44.95)"
+        }
+      },
+      {
+        "name": "mouth",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(157.13 182.89)"
+        }
+      },
+      {
+        "name": "facialHair",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(116.7 139.95)"
+        }
+      },
+      {
+        "name": "eyebrows",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(127.93 99)"
+        }
+      },
+      {
+        "name": "hair",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(24 -1)"
+        }
+      },
+      {
+        "name": "eyes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(100 111)"
+        }
+      },
+      {
+        "name": "nose",
+        "type": "component",
+        "attributes": {
+          "transform": "rotate(-8 1175.7 -1254.11)"
+        }
+      },
+      {
+        "name": "ears",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(85 155)"
+        }
+      },
+      {
+        "name": "clothes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(37.02 284)"
+        }
+      }
+    ],
+    "width": 360,
+    "height": 360
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "clothes": {
+      "width": 280.5,
+      "height": 81,
+      "variants": {
+        "collared": {
+          "elements": [
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#clothesCollared-a",
+                "fill": {
+                  "type": "color",
+                  "name": "shirt"
+                },
+                "stroke": "#000000",
+                "stroke-width": "8",
+                "clip-path": "url(#clothesCollared-b)",
+                "transform": "translate(0 20.2)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m68.6 25.08 5.16-19.23c.21-.78 1.22-1 1.76-.4 14.87 16.26 33.62 15.63 39.85 14.88.84-.1 1.5.82 1.1 1.58l-13.15 24.95c-.2.38-.61.6-1.04.5-3.95-.82-23.62-5.63-33.57-21.5a1 1 0 0 1-.11-.78Zm130.58-.1L187.6 5.5a1.05 1.05 0 0 0-1.78 0c-5.74 8.83-15.64 12.9-19.1 14.1-.62.22-.9.96-.57 1.53l13.5 22.81c.2.34.59.53.97.42 2.13-.61 9.46-3.67 18.54-18.34a1 1 0 0 0 .02-1.04Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shirt"
+                },
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m68.6 25.08 5.16-19.23c.21-.78 1.22-1 1.76-.4 14.87 16.26 33.62 15.63 39.85 14.88.84-.1 1.5.82 1.1 1.58l-13.15 24.95c-.2.38-.61.6-1.04.5-3.95-.82-23.62-5.63-33.57-21.5a1 1 0 0 1-.11-.78Zm130.58-.1L187.6 5.5c-.4-.66-1.36-.65-1.78 0-5.74 8.83-15.64 12.9-19.1 14.1-.62.22-.9.96-.57 1.53l13.5 22.81c.2.34.59.53.97.42 2.13-.61 9.46-3.67 18.54-18.34a1 1 0 0 0 .02-1.04Z",
+                "fill": "#ffffff",
+                "fill-opacity": ".75",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m125.48 42.5-9-21.5-7 15zm31.5-1 9-21.5 7 15zM86.48 2l-12 3 10 6.5zm89.5 0 11 3-7 6.5z",
+                "fill": "#000000",
+                "stroke": "#000000",
+                "stroke-width": "4",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M0 60.8h280.5c-20.53-30.25-53.02-50.5-97.52-56.5-18.3-2.47-39 29.5-39 29.5S96.18-3.45 79.98.25C40.58 9.24 16.64 29.26 0 60.8",
+                    "id": "clothesCollared-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "clothesCollared-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#clothesCollared-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "crew": {
+          "elements": [
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#clothesCrew-a",
+                "fill": {
+                  "type": "color",
+                  "name": "shirt"
+                },
+                "stroke": "#000000",
+                "stroke-width": "8",
+                "clip-path": "url(#clothesCrew-b)",
+                "transform": "translate(0 14.94)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m68.91 24.58 9.16-19.6a1 1 0 0 1 1.25-.51c37.92 13.42 72.42 12.47 104.4 3.57a1 1 0 0 1 1.08.38l13.93 19.05a.98.98 0 0 1-.42 1.5c-33.6 13.2-96.66 10.95-128.91-3.07a1 1 0 0 1-.49-1.32Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shirt"
+                },
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m68.91 24.58 9.16-19.6a1 1 0 0 1 1.25-.51c37.92 13.42 72.42 12.47 104.4 3.57a1 1 0 0 1 1.08.38l13.93 19.05a.98.98 0 0 1-.42 1.5c-33.6 13.2-96.66 10.95-128.91-3.07a1 1 0 0 1-.49-1.32Z",
+                "fill": "#ffffff",
+                "stroke": "#000000",
+                "stroke-width": "4",
+                "opacity": ".75"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M0 66.06h280.5c-20.53-30.24-49.02-52.5-97.52-56.5-15.83-3.64-26.63-9.56-46-9.56-21.99 0-40.8 1.83-57 5.52-39.4 8.99-63.34 29-79.98 60.54",
+                    "id": "clothesCrew-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "clothesCrew-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#clothesCrew-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open": {
+          "elements": [
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#clothesOpen-a",
+                "fill": {
+                  "type": "color",
+                  "name": "shirt"
+                },
+                "stroke": "#000000",
+                "stroke-width": "8.55",
+                "clip-path": "url(#clothesOpen-b)",
+                "transform": "translate(0 1)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M71.06 3.6C36.86.6 7.84 64.33 0 80h280.5C262.51 54.89 206.14-26.9 173.1 8.94c0 0 9.1 23.87-11.21 28.32C131.07 44 105.26 6.59 71.06 3.6",
+                    "id": "clothesOpen-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "clothesOpen-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#clothesOpen-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "earrings": {
+      "width": 52,
+      "height": 52,
+      "probability": 30,
+      "variants": {
+        "hoop": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 2A24 24 0 1 1 2 26c0-6.4 3.5-11.5 6.57-16.5L9.5 8",
+                "stroke": {
+                  "type": "color",
+                  "name": "earring"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "stud": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "27",
+                "cy": "4",
+                "r": "4",
+                "fill": {
+                  "type": "color",
+                  "name": "earring"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "28",
+                "cy": "3",
+                "r": "1",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ears": {
+      "width": 52,
+      "height": 91,
+      "variants": {
+        "attached": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m4.08 22.5-3.99.33zM26.5 39.2l.7 3.94zm-3.42-3.7c-4.74 0-8.2-1.02-10.52-2.92-2.25-1.82-4.04-4.93-4.5-10.41l-7.97.66c.59 7.02 3.05 12.41 7.42 15.96 4.29 3.48 9.82 4.71 15.57 4.71zM8.07 22.17c-.41-4.92 1.11-8.31 3.44-10.51C13.93 9.38 17.62 8 22.08 8V0C16.05 0 10.23 1.87 6.03 5.84c-4.3 4.05-6.53 9.91-5.94 17zM22.08 8c2.15 0 4.25.34 6.17.97l2.5-7.6A28 28 0 0 0 22.08 0zm6.5 26.5q-1.34.5-2.78.76l1.4 7.88q2.2-.39 4.22-1.17zm-2.78.76q-1.32.24-2.72.24v8q2.1 0 4.12-.36z",
+                "fill": "#000000"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M30.5 38.04a19 19 0 0 1-7.42 1.46c-10.5 0-17.96-4.5-19-17-1-12 7.5-18.5 18-18.5 3.14 0 6.19.6 8.92 1.73z",
+                "fill": {
+                  "type": "color",
+                  "name": "base"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26.5 12.5c-4-1.83-12.8-2.8-16 8",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 13c2.17 1.83 6.3 7.5 5.5 15.5",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "earrings",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(0 32)"
+              }
+            }
+          ]
+        },
+        "detached": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#earsDetached-a)",
+                "transform": "translate(4 4)"
+              },
+              "children": [
+                {
+                  "name": "use",
+                  "type": "element",
+                  "attributes": {
+                    "href": "#earsDetached-b",
+                    "stroke": "#000000",
+                    "stroke-width": "8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.97 22.98q.1-.98.11-1.98c0-10.22-9.5-17-20-17s-19 6.5-18 18.5c.56 6.68 2.95 11.07 6.65 13.72a5.7 5.7 0 0 0-.68 3.6C10.68 45.1 15.19 47 21.52 47c11.1 0 19.9-14.05 20.45-24.02",
+                "fill": {
+                  "type": "color",
+                  "name": "base"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26.5 12.5c-4-1.83-12.8-2.8-16 8",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 13c2.17 1.83 6.3 7.5 5.5 15.5",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "earrings",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(0 39)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18.08 0c-10.5 0-19 6.5-18 18.5.56 6.68 2.95 11.07 6.65 13.72a5.7 5.7 0 0 0-.68 3.6C6.68 41.1 11.19 43 17.52 43c4.74 0 9.05-2.55 12.48-6.25V3.25A23 23 0 0 0 18.08 0",
+                    "id": "earsDetached-b"
+                  }
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "earsDetached-a"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "fill": "#ffffff",
+                        "d": "M-16-16h62v75h-62z"
+                      }
+                    },
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#earsDetached-b",
+                        "fill": "#000000"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "eyebrows": {
+      "width": 113.18,
+      "height": 43.08,
+      "variants": {
+        "down": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.07 29.5c6.17 2.5 21.1 3 31.5-15M76.07 7c5.17 5.33 18.1 12.8 28.5 0",
+                "stroke": {
+                  "type": "color",
+                  "name": "eyebrows"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "eyelashesDown": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.07 29.5c6.17 2.5 21.1 3 31.5-15M76.07 7c5.17 5.33 18.1 12.8 28.5 0M19.22 29.46l-6.15-5.43M98.3 12.44l1.78-8M27.67 25.81l-4.05-7.13m66.6-6.66.93-8.15M34.75 20.2l-2.2-7.9m49.52-1.27-.78-8.16",
+                "stroke": {
+                  "type": "color",
+                  "name": "eyebrows"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "eyelashesUp": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M81.07 13.21c5.67-2.66 19-5.1 27 6.5M5.65 38.52c2.07-5.91 9.69-17.12 23.57-14.7M8.15 32.46 2 27.03m103.04-12.87 6.14-5.43M14.6 26.81l-4.05-7.13m87.04-9.17 4.04-7.13M22.67 23.2l-2.2-7.9m68.04-5.4 2.2-7.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "eyebrows"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "up": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M81.07 13.21c5.67-2.66 19-5.1 27 6.5M5.65 38.52c2.07-5.91 9.69-17.12 23.57-14.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "eyebrows"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 158.08,
+      "height": 71.49,
+      "variants": {
+        "eyes": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "13.5",
+                "rx": "9",
+                "ry": "13.5",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "transform": "rotate(-6.78 235.63 -392.84)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "13.5",
+                "rx": "9",
+                "ry": "13.5",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "transform": "rotate(-6.28 192.57 -1015.02)"
+              }
+            },
+            {
+              "name": "glasses",
+              "type": "component"
+            }
+          ]
+        },
+        "eyesShadow": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12",
+                "cy": "12",
+                "r": "12",
+                "fill": {
+                  "type": "color",
+                  "name": "eyeShadow"
+                },
+                "transform": "rotate(-6.28 182.74 -392.5)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "13.5",
+                "rx": "9",
+                "ry": "13.5",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "transform": "rotate(-6.78 235.63 -392.84)"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12",
+                "cy": "12",
+                "r": "12",
+                "fill": {
+                  "type": "color",
+                  "name": "eyeShadow"
+                },
+                "transform": "rotate(-6.28 135.94 -978.53)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "13.5",
+                "rx": "9",
+                "ry": "13.5",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "transform": "rotate(-6.28 192.57 -1015.02)"
+              }
+            },
+            {
+              "name": "glasses",
+              "type": "component",
+              "attributes": {
+                "transform": "scale(.95207 .90921)"
+              }
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "10",
+                "rx": "9",
+                "ry": "10",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "transform": "rotate(-6.78 260.97 -391.34)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "10",
+                "rx": "9",
+                "ry": "10",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "transform": "rotate(-6.28 219.93 -1013.52)"
+              }
+            },
+            {
+              "name": "glasses",
+              "type": "component",
+              "attributes": {
+                "transform": "scale(.95207 .90921)"
+              }
+            }
+          ]
+        },
+        "smiling": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.29 42.07c.11.82 1.14 1 1.72.41 2.46-2.52 6.25-4.36 10.65-4.89 2.6-.3 5.1-.12 7.32.48.75.2 1.5-.44 1.23-1.18a10.84 10.84 0 0 0-20.92 5.18m64.09-10c.12.82 1.15 1 1.73.41 2.44-2.48 6.19-4.31 10.54-4.83 2.56-.3 5.03-.12 7.23.47.75.2 1.5-.44 1.23-1.17a10.74 10.74 0 0 0-20.73 5.12",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "glasses",
+              "type": "component"
+            }
+          ]
+        },
+        "smilingShadow": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M68.47 32.36c1.86 6.36-5.03 1.48-11.4 3.33-6.36 1.86-9.78 9.76-11.64 3.4a12 12 0 1 1 23.04-6.73m63.79-9.19c1.64 6.42-4.69 1.52-11.11 3.15-6.42 1.64-10.51 9.19-12.14 2.77a12 12 0 1 1 23.25-5.92",
+                "fill": {
+                  "type": "color",
+                  "name": "eyeShadow"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.29 42.07c.11.82 1.14 1 1.72.41 2.46-2.52 6.25-4.36 10.65-4.89 2.6-.3 5.1-.12 7.32.48.75.2 1.5-.44 1.23-1.18a10.84 10.84 0 0 0-20.92 5.18m64.09-10c.12.82 1.15 1 1.73.41 2.44-2.48 6.19-4.31 10.54-4.83 2.56-.3 5.03-.12 7.23.47.75.2 1.5-.44 1.23-1.17a10.74 10.74 0 0 0-20.73 5.12",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "glasses",
+              "type": "component",
+              "attributes": {
+                "transform": "scale(.95207 .90921)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "facialHair": {
+      "width": 145.48,
+      "height": 125.44,
+      "probability": 10,
+      "variants": {
+        "beard": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M143.43 34.5A73.74 73.74 0 0 1 25 108.74C7.8 92.85 3.8 41.34 0 17c14 31.5 49.62 33.94 83.5 28 28.5-5 51.3-6 51.3-45 1.88 2.62 6.97 27.59 8.63 34.5",
+                "fill": {
+                  "type": "color",
+                  "name": "facialHair"
+                }
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(40.44 42.94)"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#facialHairBeard-a)",
+                "opacity": ".15",
+                "style": "mix-blend-mode:hard-light"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "d": "M-2.69-14.65h164v153h-164z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "facialHairBeard-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "mouth",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(40.44 42.94)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "scruff": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "transform": "translate(16.3 46.35)"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "11",
+                    "cy": "48",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "55",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "59",
+                    "cy": "62",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "79",
+                    "cy": "60",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "50",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "100",
+                    "cy": "55",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "110",
+                    "cy": "41",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "1",
+                    "cy": "27",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "43",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31",
+                    "cy": "63",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "49",
+                    "cy": "67",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "83",
+                    "cy": "41",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "97",
+                    "cy": "45",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "89",
+                    "cy": "62",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "103",
+                    "cy": "31",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "33",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "33",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "15",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "38",
+                    "cy": "69",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "65",
+                    "cy": "69",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "76",
+                    "cy": "69",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "93",
+                    "cy": "33",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "93",
+                    "cy": "15",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "113",
+                    "cy": "28",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "13",
+                    "cy": "20",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "23",
+                    "cy": "55",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "19",
+                    "cy": "62",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "59",
+                    "cy": "42",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "71",
+                    "cy": "44",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "57",
+                    "cy": "74",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "23",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "5",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "104",
+                    "cy": "20",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "111",
+                    "cy": "10",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "22",
+                    "cy": "29",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "22",
+                    "cy": "40",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "43",
+                    "cy": "25",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "43",
+                    "cy": "7",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "55",
+                    "cy": "21",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "67",
+                    "cy": "15",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "15",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "93",
+                    "cy": "15",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "119",
+                    "cy": "15",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "41",
+                    "cy": "55",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "52",
+                    "cy": "49",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "48",
+                    "cy": "41",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "72",
+                    "cy": "32",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "23",
+                    "cy": "14",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "30",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "12",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "95",
+                    "cy": "26",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "95",
+                    "cy": "8",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "102",
+                    "cy": "10",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "117",
+                    "cy": "1",
+                    "r": "1",
+                    "fill": {
+                      "type": "color",
+                      "name": "facialHair"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "11",
+                    "cy": "48",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "55",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "59",
+                    "cy": "62",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "79",
+                    "cy": "60",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "50",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "100",
+                    "cy": "55",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "110",
+                    "cy": "41",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "1",
+                    "cy": "27",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "43",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31",
+                    "cy": "63",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "49",
+                    "cy": "67",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "83",
+                    "cy": "41",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "97",
+                    "cy": "45",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "89",
+                    "cy": "62",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "103",
+                    "cy": "31",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "33",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "33",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "15",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "38",
+                    "cy": "69",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "65",
+                    "cy": "69",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "76",
+                    "cy": "69",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "93",
+                    "cy": "33",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "93",
+                    "cy": "15",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "113",
+                    "cy": "28",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "13",
+                    "cy": "20",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "23",
+                    "cy": "55",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "19",
+                    "cy": "62",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "59",
+                    "cy": "42",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "71",
+                    "cy": "44",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "57",
+                    "cy": "74",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "23",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "5",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "104",
+                    "cy": "20",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "111",
+                    "cy": "10",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "22",
+                    "cy": "29",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "22",
+                    "cy": "40",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "43",
+                    "cy": "25",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "43",
+                    "cy": "7",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "55",
+                    "cy": "21",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "67",
+                    "cy": "15",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "80",
+                    "cy": "15",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "93",
+                    "cy": "15",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "119",
+                    "cy": "15",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "41",
+                    "cy": "55",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "52",
+                    "cy": "49",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "48",
+                    "cy": "41",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "72",
+                    "cy": "32",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "23",
+                    "cy": "14",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "30",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "12",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "95",
+                    "cy": "26",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "95",
+                    "cy": "8",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "102",
+                    "cy": "10",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "117",
+                    "cy": "1",
+                    "r": "1",
+                    "stroke": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(40.44 42.94)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "glasses": {
+      "width": 158.08,
+      "height": 71.49,
+      "probability": 30,
+      "variants": {
+        "round": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "124.5",
+                "cy": "28",
+                "r": "26",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57.5",
+                "cy": "37",
+                "r": "26",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m97.16 29.34 1.41-1.41zm-11.32 0 1.42 1.42zM101.5 35a10 10 0 0 0-2.93-7.07l-2.83 2.83A6 6 0 0 1 97.5 35zm-2.93-7.07A10 10 0 0 0 91.5 25v4a6 6 0 0 1 4.24 1.76zM91.5 25a10 10 0 0 0-7.07 2.93l2.83 2.83A6 6 0 0 1 91.5 29zm-7.07 2.93A10 10 0 0 0 81.5 35h4a6 6 0 0 1 1.76-4.24z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M32 39 2 44.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "square": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.5 42.5 2 49.13",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#glassesSquare-a",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "8",
+                "clip-path": "url(#glassesSquare-b)",
+                "transform": "rotate(-8 141.42 -194)"
+              }
+            },
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#glassesSquare-c",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "8",
+                "clip-path": "url(#glassesSquare-d)",
+                "transform": "rotate(172 78.23 5.47)scale(1 -1)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m85.5 37.13 22-3.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M.95 8.85A8 8 0 0 1 8.9 0H48a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H13.19a8 8 0 0 1-7.96-7.15z",
+                    "id": "glassesSquare-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "glassesSquare-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#glassesSquare-a"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M.95 8.85A8 8 0 0 1 8.9 0H48a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H13.19a8 8 0 0 1-7.96-7.15z",
+                    "id": "glassesSquare-c"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "glassesSquare-d"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#glassesSquare-c"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "hair": {
+      "width": 305.15,
+      "height": 351.04,
+      "probability": 100,
+      "variants": {
+        "dannyPhantom": {
+          "elements": [
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#hairDannyPhantom-a",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "stroke": "#000000",
+                "stroke-width": "8",
+                "clip-path": "url(#hairDannyPhantom-b)",
+                "transform": "translate(48.17 27.17)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M5.33 53.33c21.2-47.6 75.17-55.17 95.5-53 54.4 1.6 84.67 43.33 89.5 64-16.8 11.6-92 13.5-115 13 8.8 6.8 31 6.5 36 5.5-22.8 20.8-63.67 30.67-83 33.5 4.83 20.83 15.5 64.1 17.5 72.5s13 25 20 31l-8.5 34.5h-35c39.5-51.5-43.5-141.5-17-201",
+                    "id": "hairDannyPhantom-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "hairDannyPhantom-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#hairDannyPhantom-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "dougFunny": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M165 68c14.67-.67 40.4-8.8 26-36m-52 34c14.67-.67 40.4-8.8 26-36m-62 47c14.67-.67 40.4-8.8 26-36",
+                "stroke": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "fonze": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M235.18 61.4c-1.27 6.05-4.6 11.32-9.43 15.9 9.4 34.06 9.6 53.87 4.38 57.65l-14.8-49.99c-31.94 18.74-91.69 21.94-106.65 21.94q-2.32.26-4.43.67c-14.65 9-2.6 52.12 11.75 70.43l-11 2c-5.14-24.97-17.41-22.92-26.61-21.38l-.32.05c2.2 13.63 6.72 27.74 10.45 39.32q1.44 4.5 2.66 8.4c-.79.11-1.48.3-2.12.48-5.5 1.53-7.41 2.06-33.38-61.97-6.47-15.95-6.03-30.16-.97-42.62-4.78-4.8-14.37-7.14-19.71-7.78 10.44-6.12 20.58-4.87 25.54-3.1q.75-1.12 1.56-2.22c-.97-4.41-7.96-9.46-12.11-11.82 8.56-4.3 18.62-2.03 23-.2C92.62 59.13 122.02 47.05 147 41c48.82-11.83 67.5-28.5 67.5-28.5 20.68 8.5 25.62 25.22 20.68 48.9Z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "full": {
+          "elements": [
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#hairFull-a",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "stroke": "#000000",
+                "stroke-width": "7.64",
+                "clip-path": "url(#hairFull-b)",
+                "transform": "translate(0 21)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M10.12 305.3s28 12.3 79.89 24.04c1.57-14.45 7.75-53.97 29.3-41.06 0 0 7.6-19.53 6.42-32.35-1.16-12.64-11.9-30.24-11.9-30.24a78 78 0 0 1-19.6-32.2l-11.36-53.31c29.35-1.64 16.25 25.39 27.71 34.53 1.25-3.58 20.2-47.77-12.91-74.46 63.83-46.3 93.44-25.18 116.1-15.35 12.29 15.35 23.2 71.8 23.2 72.5 5.57 39.18-17.9 77.03-54.89 86.84 1.96 20.79 12.3 66.26 25.38 85.43 0 0 48.47 5.35 97.69-24.37 0-8.76-3.21-11.87-6.66-15.2-3.85-3.74-8-7.76-8.28-20.3-.65-29.2 27.32-40.5 1.64-70.19-5.35-6.18-9.51-11-10.89-23.5-2.08-19 .86-30.6 3.96-42.83 2.59-10.17 5.28-20.79 5.28-36.47 0-37.25-46.93-61.06-71.07-53.23-.8.26-1.68-.2-1.95-1.04C205.64 6.93 185.68 0 155.24 0c-56.27 0-117 42.57-117 105.08 0 52.32-19.16 74.28-28.12 94.53-22.77 51.5 0 105.7 0 105.7",
+                    "id": "hairFull-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "hairFull-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#hairFull-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "mrClean": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "6.86",
+                "cy": "18.44",
+                "rx": "6.86",
+                "ry": "18.44",
+                "fill": "#fcfdff",
+                "transform": "rotate(117 74 95.17)"
+              }
+            }
+          ]
+        },
+        "mrT": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M212.99 89.17c-8-6.4-21.84-7-27.5-6.5l-8-26.5c13.6 3.2 32 24 35.5 33",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "opacity": ".1"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M110.8 23.76s5.73-3.96 29.95-10.06 33.04-3.72 33.04-3.72l11.79 72.84s-8.04-.18-28.03 4.19-29.56 9.67-29.56 9.67z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M73.99 98.68c-6.8-41.6 23.33-68.17 37-75.5l17 73.5c-19.2-39.6-45.34-15.17-54 2",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M92.49 142.67c-7.2-27.2 22-41.83 35.5-46-7-16.33-23-31-42.5-13-18 30.5-11 54-5.5 72z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "opacity": ".1"
+              }
+            }
+          ]
+        },
+        "pixie": {
+          "elements": [
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#hairPixie-a",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "stroke": "#000000",
+                "stroke-width": "7.64",
+                "clip-path": "url(#hairPixie-b)",
+                "transform": "translate(9 21)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M216 70c.5 4.5-.3 13.5-1.5 19.5",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M121.84 238.69C103 223.5 82.38 199.5 82.07 179.4c-.19-12.57.67-45.57.93-52.4 1.17-30.19 38.84-47.18 38.84-47.18s-2 12.68-25.34 33.18c65 3.92 108.27-41.1 108.27-41.1s18.06 61.4 22.2 85.5-4.47 40.9-6.7 49c-1.4 5.16 33.74 9.27 39.73 3.1 3.42-3.52-13-26-15-49-2.27-26.06 10.5-44.5 6.2-63.69C244.97 69 234 49.5 208.18 47.54 196.64 11.93 176.68 0 146.24 0c-56.27 0-120.96 42.7-117 105.08C33.5 172 19.5 206 0 218c0 0 41 25 121.84 20.69",
+                    "id": "hairPixie-a"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "hairPixie-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#hairPixie-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "turban": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M247.73 112.8C247.73 46.7 211.27 2 166.86 2 109.96 2 52 23.34 52 124.26c0 24.96 10.66 43.57 25.56 57.28a43 43 0 0 1-3.5-4.92c-2.88-26.98 29.17-47.7 60.54-67.95 16.65-10.76 33.11-21.4 44.05-32.77 9.59 5.43 37.79 28.2 43.16 37.42 2.88 4.94 7.51 21.87 10.67 41.63 10.34-12.42 15.25-24.84 15.25-42.16Z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M179.26 75.25c13.18-11.95 32.89-39.21 31.62-56.92",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "head": {
+      "width": 172.01,
+      "height": 298.05,
+      "variants": {
+        "standard": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M140.05 297.55c-14.4-20-25.67-58.67-27-78l-68.5-29.5-28.5 107.5z",
+                "fill": {
+                  "type": "color",
+                  "name": "base"
+                },
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M65.13 48.79q-3.14.3-6.37.3C27.98 49.1 2.71 27.54 0 0l61.76 26.6c.38 5.48 1.55 13.31 3.37 22.19",
+                "fill": "#000000",
+                "transform": "translate(51.29 192.95)",
+                "style": "mix-blend-mode:multiply"
+              }
+            },
+            {
+              "name": "use",
+              "type": "element",
+              "attributes": {
+                "href": "#headStandard-a",
+                "fill": {
+                  "type": "color",
+                  "name": "base"
+                },
+                "stroke": "#000000",
+                "stroke-width": "8",
+                "clip-path": "url(#headStandard-b)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "m169.94 128.97-.09-.35-.08-.35-16.4-68.44-.05-.2-.05-.2-.07-.3A77.72 77.72 0 0 0 2.04 95.33l16.99 70.92h.01a77.72 77.72 0 0 0 151.14-36.22h.01z",
+                    "id": "headStandard-a",
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "headStandard-b"
+                  },
+                  "children": [
+                    {
+                      "name": "use",
+                      "type": "element",
+                      "attributes": {
+                        "href": "#headStandard-a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 84.2,
+      "height": 64.54,
+      "variants": {
+        "frown": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7.87 41.11c3.2-7.95 15.1-24.76 37-28.34s33.12 8.45 36 14.92",
+                "stroke": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "laughing": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M77.6 25.82a36 36 0 0 0 1.18-12.54 4.98 4.98 0 0 0-6.8-4.21c-4.26 1.68-18.03 6.88-27.62 8.2-10.53 1.45-26.66-.32-31.44-.91a4.98 4.98 0 0 0-5.54 5.74 36 36 0 0 0 70.22 3.72",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64.7 39.67a32 32 0 0 1-37.21 4.6 21.5 21.5 0 0 1 37.2-4.6",
+                "fill": "#fc909f"
+              }
+            }
+          ]
+        },
+        "nervous": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m81.28 31.68-1.02-14.57a8.06 8.06 0 0 0-9.73-7.3c-6.95 1.5-20.1 4.1-29.54 4.76s-22.82-.1-29.91-.6a8.06 8.06 0 0 0-8.63 8.58l1.02 14.57a8.06 8.06 0 0 0 9.74 7.3c6.95-1.49 20.1-4.1 29.54-4.76s22.82.1 29.9.6a8.06 8.06 0 0 0 8.63-8.58",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m12.62 18.08 1.6 6.07a6 6 0 0 0 6.21 4.46 6 6 0 0 0-5.54 5.29l-.73 6.23c7.28-1.53 19.34-3.84 28.3-4.47 8.98-.62 21.24-.01 28.66.49l-1.6-6.07a6 6 0 0 0-6.22-4.46 6 6 0 0 0 5.54-5.29l.74-6.23c-7.28 1.52-19.34 3.84-28.31 4.46s-21.23.02-28.65-.48",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "pucker": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.87 16.81c4.16-2.33 21-5.3 21 1.5 0 8.5-11.5 8-11.5 8s13.04-3.16 10.5 6c-2.5 9-9.5 5.5-11.5 4.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "sad": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25.87 46.11c1.71-7.95 8.07-24.76 19.77-28.34s17.7 8.45 19.23 14.92",
+                "stroke": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.37 17.61c2.5 17 31 25 57 5.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "smirk": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22.87 24.28c4.94 6.45 12.42 13.59 23.97 11.96s16.7-9.6 15.18-16.05",
+                "stroke": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "surprised": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.24 56.77c12.1-2.19 18.75-15.37 16.42-28.22S52.5 5.68 40.4 7.87 21.64 23.25 23.96 36.1s13.17 22.87 25.28 20.67",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M30 42.77c2.8-5.2 8.15-9.24 14.81-10.45s13.1.7 17.52 4.6C61.25 45.2 55.96 51.9 48.6 53.24s-14.66-3.09-18.58-10.47",
+                "fill": "#fc909f"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "nose": {
+      "width": 17.39,
+      "height": 31.41,
+      "variants": {
+        "curve": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6.9 4c-.34 3.83 0 12.2 4 15 5 3.5-.5 12-10.5 10",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "pointed": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6.9 0c0 14 7 25 7 25s-3.5 6-13.5 4",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            }
+          ]
+        },
+        "tound": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2.7 9.34c5.45-1.24 14.38.62 12.42 10.54C13.37 28.7 4 29.18 1.39 26.7",
+                "stroke": "#000000",
+                "stroke-width": "4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "base": {
+      "notEqualTo": [
+        "background"
+      ],
+      "values": [
+        "#77311d",
+        "#ac6651",
+        "#f9c9b6"
+      ]
+    },
+    "earring": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#000000",
+        "#6bd9e9",
+        "#77311d",
+        "#9287ff",
+        "#ac6651",
+        "#d2eff3",
+        "#e0ddff",
+        "#f4d150",
+        "#f9c9b6",
+        "#fc909f",
+        "#ffeba4",
+        "#ffedef",
+        "#ffffff"
+      ]
+    },
+    "eyeShadow": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#d2eff3",
+        "#e0ddff",
+        "#ffeba4",
+        "#ffedef",
+        "#ffffff"
+      ]
+    },
+    "eyebrows": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#000000"
+      ]
+    },
+    "eyes": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#000000"
+      ]
+    },
+    "facialHair": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#000000"
+      ]
+    },
+    "glasses": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#000000",
+        "#6bd9e9",
+        "#77311d",
+        "#9287ff",
+        "#ac6651",
+        "#d2eff3",
+        "#e0ddff",
+        "#f4d150",
+        "#f9c9b6",
+        "#fc909f",
+        "#ffeba4",
+        "#ffedef",
+        "#ffffff"
+      ]
+    },
+    "hair": {
+      "notEqualTo": [
+        "background",
+        "base"
+      ],
+      "values": [
+        "#000000",
+        "#6bd9e9",
+        "#77311d",
+        "#9287ff",
+        "#ac6651",
+        "#d2eff3",
+        "#e0ddff",
+        "#f4d150",
+        "#f9c9b6",
+        "#fc909f",
+        "#ffeba4",
+        "#ffedef",
+        "#ffffff"
+      ]
+    },
+    "mouth": {
+      "notEqualTo": [
+        "base"
+      ],
+      "values": [
+        "#000000"
+      ]
+    },
+    "shirt": {
+      "notEqualTo": [
+        "background",
+        "base",
+        "hair"
+      ],
+      "values": [
+        "#000000",
+        "#6bd9e9",
+        "#77311d",
+        "#9287ff",
+        "#ac6651",
+        "#d2eff3",
+        "#e0ddff",
+        "#f4d150",
+        "#f9c9b6",
+        "#fc909f",
+        "#ffeba4",
+        "#ffedef",
+        "#ffffff"
+      ]
+    }
+  }
+}

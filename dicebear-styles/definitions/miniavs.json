@@ -1,0 +1,841 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/miniavs.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "text": "Remix of „Miniavs - Free Avatar Creator” (https://www.figma.com/community/file/923211396597067458) by „Webpixels”, licensed under „CC BY 4.0” (https://creativecommons.org/licenses/by/4.0/)"
+    },
+    "creator": {
+      "name": "Webpixels",
+      "url": "https://webpixels.io/"
+    },
+    "source": {
+      "name": "Miniavs - Free Avatar Creator",
+      "url": "https://www.figma.com/community/file/923211396597067458"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "head",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(13 13)"
+        }
+      },
+      {
+        "name": "body",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7 57)"
+        }
+      },
+      {
+        "name": "hair",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(0 3)"
+        }
+      },
+      {
+        "name": "mouth",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(28.93 45)"
+        }
+      },
+      {
+        "name": "eyes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(29 35)"
+        }
+      },
+      {
+        "name": "blush",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(24 38)"
+        }
+      },
+      {
+        "name": "glasses",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(25 31)"
+        }
+      },
+      {
+        "name": "mustache",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(26.5 43)"
+        }
+      }
+    ],
+    "width": 64,
+    "height": 64
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "blush": {
+      "width": 23,
+      "height": 3,
+      "probability": 20,
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "5",
+                "height": "3",
+                "rx": "1.5",
+                "fill": "#ff859b"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "4",
+                "height": "3",
+                "rx": "1.5",
+                "fill": "#ff859b",
+                "x": "19"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "body": {
+      "width": 40,
+      "height": 7,
+      "variants": {
+        "golf": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "40",
+                "height": "23",
+                "rx": "9",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                },
+                "y": "3"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 1h19v3s-5 1-9.5 1S10 4 10 4z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 1h19v2s-3 1.5-9.5 1.5S10 3 10 3z",
+                "fill": "#000000",
+                "fill-opacity": ".2"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.5 2c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2s-5 1-10 1-10-1-10-1",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            }
+          ]
+        },
+        "tShirt": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "40",
+                "height": "23",
+                "rx": "9",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                },
+                "y": "3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 15,
+      "height": 4,
+      "variants": {
+        "confident": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 1.5a1.5 1.5 0 0 1-3 0V.27c0-.15.12-.27.27-.27h2.46c.15 0 .27.12.27.27zm-10 0a1.5 1.5 0 0 1-3 0V.27c0-.15.12-.27.27-.27h2.46c.15 0 .27.12.27.27z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M.5.5h4m6 0h4",
+                "stroke": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "happy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1.5a1.5 1.5 0 0 1 3 0v1.23c0 .15-.12.27-.27.27H1.27A.27.27 0 0 1 1 2.73zm10 0a1.5 1.5 0 0 1 3 0v1.23c0 .15-.12.27-.27.27h-2.46a.27.27 0 0 1-.27-.27z",
+                "fill": "#1b0b47"
+              }
+            }
+          ]
+        },
+        "normal": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "4",
+                "rx": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "x": "1"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "4",
+                "rx": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "x": "11"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "glasses": {
+      "width": 24.54,
+      "height": 10.54,
+      "probability": 20,
+      "variants": {
+        "normal": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5.27",
+                "cy": "5.27",
+                "r": "4.27",
+                "stroke": "#000000",
+                "stroke-width": "2"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "19.27",
+                "cy": "5.27",
+                "r": "4.27",
+                "stroke": "#000000",
+                "stroke-width": "2"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m8.99 4.1 7-.1",
+                "stroke": "#000000",
+                "stroke-width": "2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hair": {
+      "width": 54.56,
+      "height": 61,
+      "variants": {
+        "balndess": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "9",
+                "height": "2",
+                "rx": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "x": "14",
+                "y": "23"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "7",
+                "height": "2",
+                "rx": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "x": "14",
+                "y": "30"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "13",
+                "height": "3",
+                "rx": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "x": "12",
+                "y": "26"
+              }
+            }
+          ]
+        },
+        "classic01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M28.96 23.2c5.62 1.86 13.4 4.45 21.54-3.7 4-4-14-21-28.5-11.5-11.33 1.68-10.69 8.47-10.19 13.71.1 1 .2 1.95.2 2.8q0 .78.2 1.2a27 27 0 0 0-.2 3.3 4 4 0 0 0 8.02 0A4 4 0 0 0 23.88 24H24a4 4 0 0 0 3.05-1.42z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "classic02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 5c14.5-9.5 28 1 27 10-1.71 15.4-21.75 9-27 9h-.13A4 4 0 0 1 20 29v.2a4 4 0 1 1-7.83-1.37 4 4 0 0 1-.88-4.33 4 4 0 0 1 .8-4.25C12.61 13.28 14.9 6.35 24 5",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "curly": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.97 29.48a4 4 0 0 0 1.78-4.88 4 4 0 0 0-2.97-7.41c1.42 3.67 1.32 8.22 1.19 12.3",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37.5 0a6.5 6.5 0 0 1 6.01 4.03 4 4 0 0 1 3.44 4.58 7.3 7.3 0 0 1 3.05 5.9c0 4.13-3.58 7.49-8 7.49a8.3 8.3 0 0 1-5.7-2.24 5 5 0 0 1-6.36.2 7 7 0 0 1-7 1.74q-.4.43-.88.73a3.98 3.98 0 0 1-1.35 6.19q.3.37.3.88c0 .83-.65 1.5-1.5 1.5h-.02a4 4 0 0 1-7.3-3.17 4 4 0 0 1 0-5.66 4 4 0 0 1 .75-3.71 7 7 0 0 1 4.1-10.17v-.31a4 4 0 0 1 5.94-3.51 7 7 0 0 1 9.8-2.42A6.5 6.5 0 0 1 37.5 0",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "elvis": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22 25c-.63 3 1 6.98 1 7.74 0 .77-3.93 3.03-5 3.76s-1.5-7-1.5-7c-3 0-3.5 5.5-3.5 5.5s-2.24-.74-3-4.5c-.51-2.54.3-8.09.5-9.5.5-3.5 1-11.5 7.5-15.5s23-4 27-3c9.9 2.47 11.22 16 8 20.5-5 5.5-19-1-23.5-1s-6.87 0-7.5 3",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "long": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M48 22a18 18 0 0 0-36-.5V62h11V31.6a65 65 0 0 0 12.2-3.76 54 54 0 0 0 10.68-5.64c.24 2.53.15 5.16.08 7.61q-.07 1.73-.08 3.3l-.02 1.22q.35-.11.64-.24c1.5-.7 1.5-1.6 1.5-1.6zm-33 8a5 5 0 0 0 0 8z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "ponyTail": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 7c8-8 13 3 13 3l-2 8s-2 2.5 0 10-2.5 11.5-2.5 11.5S5 42 2 40s-3.4-3.92-3-7.5c.5-4.5 2-3 2-7.5S-8 15 0 7",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m13.03 10.18 5.5 2.38-3.56 8.26-5.51-2.38S8.5 16.5 10 13.5s3.03-3.32 3.03-3.32",
+                "fill": "#ff6c98"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m18 38-1.32-8.82A5 5 0 0 0 18 39v8.3q-2.34-2.07-4.08-4.83c-1.7-2.7-2.9-5.8-3.48-9.1-.6-3.28-.58-6.68.04-9.96a26 26 0 0 1 3.55-9.03 21 21 0 0 1 6.43-6.5A18 18 0 0 1 31 5c2.5 0 4.97.45 7.27 1.33s4.4 2.17 6.16 3.8a17.5 17.5 0 0 1 4.12 5.67 16 16 0 0 1 1.38 5.2H50v4.29s-.33.15-1 .36v8.5s0 1.4-1.5 2.45c-.52.36-1.22.64-1.9.85q.29-2.18.29-4.35 0-1.56.07-3.29.06-1.68.08-3.44c-1.85.34-4.37.63-7.58.63C30.62 27 26 25.29 26 25.29v-1a26 26 0 0 0-2 3.7c-.75 1.76-.75 3.55-.75 5.06s0 2.73-.75 3.34c-1.5 1.2-4.5 1.6-4.5 1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "slaughter": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 22q0 .8-.3 1.5A4 4 0 0 1 20 29a4 4 0 0 1-8 0c0-1.05.07-2.78.37-4.32a4 4 0 0 1 4.8-5.5A3.99 3.99 0 0 1 24 22m21.85 8.9a4 4 0 0 0 2.78-5.4 4 4 0 0 0-3.13-5.46c.6 3.14.48 6.61.38 9.77q0 .55-.03 1.08",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "stylish": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M20.67 25.22v6.02c0 .76-.67 1.76-1.17 2.26s-2 1.5-2.85 1.5-3.54-.45-4.83-2.26c-1.28-1.8-.9-11.32 0-13.54S16 12.32 20.67 8.75a26 26 0 0 1 12.88-5.34C58.48.4 49.22 18 46 22.5c-5.5-2-9.5-2.5-16.72-1.52s-8.01 1.98-8.6 4.24",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "head": {
+      "width": 33.25,
+      "height": 51,
+      "variants": {
+        "normal": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M32.89 23.1c0 8.5-1.26 18.86-10.89 19.82v9.95S18.36 55 13.5 55 5 51.52 5 51.52V29a5 5 0 0 1-1.3-9.83C2.36 9.64 4.5 0 19 0c14.6 0 14.24 11.08 13.96 19.81q-.07 1.73-.07 3.29",
+                "fill": {
+                  "type": "color",
+                  "name": "skin"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22 42.92q-.72.07-1.5.07c-8.88 0-13.9-7.15-15.5-14.6v23.14S8.64 55 13.5 55s8.5-2.13 8.5-2.13z",
+                "fill": "#000000",
+                "fill-opacity": ".07"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M21.63 42.95q-.55.04-1.13.04c-6.53 0-10.97-3.86-13.5-8.87v1.12c0 5.38 2.62 9.75 8.28 9.75h1.35c3.34.03 4.59.04 5-2.04M3.7 19.17A5 5 0 0 0 5.14 29a25 25 0 0 1-.71-5.9q-.46-1.94-.73-3.93",
+                "fill": "#000000",
+                "fill-opacity": ".07"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "2",
+                "rx": "1",
+                "fill": "#000000",
+                "fill-opacity": ".07",
+                "x": "23",
+                "y": "28"
+              }
+            }
+          ]
+        },
+        "thin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M32.89 23.1c0 8.92-3.9 18.9-10.39 20.4l-.5-.06v9.43S18.36 55 13.5 55 5 51.52 5 51.52V29a5 5 0 0 1-1.3-9.83C2.36 9.64 4.5 0 19 0c14.6 0 14.24 11.08 13.96 19.81q-.07 1.73-.07 3.29",
+                "fill": {
+                  "type": "color",
+                  "name": "skin"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 29v22.52S8.64 55 13.5 55s8.5-2.13 8.5-2.13v-9.43c-7.26-1.02-13.9-7.5-16.45-14.47Q5.28 29 5 29",
+                "fill": "#000000",
+                "fill-opacity": ".07"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3.7 19.17a5 5 0 0 0 1.85 9.8 17 17 0 0 1-1.12-5.87q-.46-1.94-.73-3.93m18 24.23C14.95 42.3 8.8 36.52 6 30.1v.4c0 5.65 6.27 14.47 9.38 15.49 2.57.83 5.4.65 6.32-2.6",
+                "fill": "#000000",
+                "fill-opacity": ".07"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "2",
+                "rx": "1",
+                "fill": "#000000",
+                "fill-opacity": ".07",
+                "x": "23",
+                "y": "28"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.07 27.4c.47 7.5.94 15-11.07 15.56v9.91S18.36 55 13.5 55 5 51.52 5 51.52V32.1q-.3-1.53-.41-3.12a5 5 0 0 1-.9-9.8C2.37 9.63 4.52 0 19 0c14.6 0 14.24 11.08 13.96 19.81q-.07 1.73-.07 3.29c0 1.4.09 2.86.18 4.3",
+                "fill": {
+                  "type": "color",
+                  "name": "skin"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.59 28.98c-.16-1.97-.16-3.97-.16-5.88q-.46-1.94-.73-3.93a5 5 0 0 0 .89 9.81M5 32.1v19.42S8.64 55 13.5 55s8.5-2.13 8.5-2.13v-9.91q-.72.03-1.5.03C9.71 42.99 6.16 38.05 5 32.1",
+                "fill": "#000000",
+                "fill-opacity": ".07"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M21.93 42.96q-.68.03-1.43.03c-7.25 0-11.23-2.23-13.41-5.5.5 4.83 3.16 8.5 8.3 8.5h1.36c3.8.04 4.92.05 5.18-3.03",
+                "fill": "#000000",
+                "fill-opacity": ".07"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "2",
+                "rx": "1",
+                "fill": "#000000",
+                "fill-opacity": ".07",
+                "x": "23",
+                "y": "28"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 11.14,
+      "height": 6,
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1a1 1 0 0 1 1-1h9.14a1 1 0 0 1 1 1 5 5 0 0 1-5 5H5a5 5 0 0 1-5-5",
+                "fill": "#66253c"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7.82 5.7a5 5 0 0 1-1.68.3H5a5 5 0 0 1-5-4.8C.77.9 1.9.95 3.02.98L4.07 1c2.2 0 4 1.57 4 3.5q0 .64-.25 1.2",
+                "fill": "#b03e67",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1.07 0h10v1a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "missingTooth": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1a1 1 0 0 1 1-1h9.14a1 1 0 0 1 1 1 5 5 0 0 1-5 5H5a5 5 0 0 1-5-5",
+                "fill": "#66253c"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7.82 5.7a5 5 0 0 1-1.68.3H5a5 5 0 0 1-5-4.8C.77.9 1.9.95 3.02.98L4.07 1c2.2 0 4 1.57 4 3.5q0 .64-.25 1.2",
+                "fill": "#b03e67",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1.07 0h10v1a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3.07.3c0-.17.13-.3.3-.3h1.4c.17 0 .3.13.3.3v2.4a.3.3 0 0 1-.3.3h-1.4a.3.3 0 0 1-.3-.3z",
+                "fill": "#b03e67"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mustache": {
+      "width": 21.5,
+      "height": 14,
+      "probability": 20,
+      "variants": {
+        "freddy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1.5 3a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        },
+        "horshoe": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M.5 3a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v11a4 4 0 0 1-4-4V3h-9v7a4 4 0 0 1-4 4z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "pencilThin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 0C4.5 1.5 0 2 0 2s1 2.5 3.5 2c2-.4 6-1.33 7.5-2zm.5 0c6 1 10 1.76 10 1.76S20.38 3.94 18 3.5l-.32-.06c-1.92-.34-4.83-.9-6.18-1.44z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "pencilThinBeard": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 2s4.5-.5 11-2v2c-1.5.67-5.5 1.6-7.5 2C1 4.5 0 2 0 2m21.5-.24S17.5 1 11.5 0v2c1.43.59 4.6 1.15 6.5 1.5 2.38.44 3.5-1.74 3.5-1.74M6.8 12.24a1 1 0 0 1 1-1.24h3.43a1 1 0 0 1 .97 1.24l-.27 1a1 1 0 0 1-.97.76H8.03a1 1 0 0 1-.97-.76z",
+                "fill": {
+                  "type": "color",
+                  "name": "hair"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "body": {
+      "values": [
+        "#3633e0",
+        "#e05a33",
+        "#ff4dd8"
+      ]
+    },
+    "hair": {
+      "values": [
+        "#1b0b47",
+        "#47280b",
+        "#ad3a20"
+      ]
+    },
+    "skin": {
+      "values": [
+        "#836055",
+        "#f5d0c5",
+        "#ffcb7e"
+      ]
+    }
+  }
+}

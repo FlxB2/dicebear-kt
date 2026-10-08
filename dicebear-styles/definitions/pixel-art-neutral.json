@@ -1,0 +1,1375 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/pixel-art-neutral.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Pixel Art Neutral” (https://www.figma.com/community/file/1198754108850888330) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Pixel Art Neutral",
+      "url": "https://www.figma.com/community/file/1198754108850888330"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "eyes",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(3 3)"
+        }
+      },
+      {
+        "name": "glasses",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(1 2)"
+        }
+      },
+      {
+        "name": "mouth",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(5 9)"
+        }
+      }
+    ],
+    "width": 14,
+    "height": 14
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "crispEdges"
+  },
+  "components": {
+    "eyes": {
+      "width": 8,
+      "height": 3,
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M8 0H5v3h3zM3 0H0v3h3z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M8 1H6v1h2zM3 1H1v1h2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".7",
+                "d": "M8 1H7v1h1zM3 1H2v1h1z"
+              }
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0H6v2h2V1H7zM2 0H1v2h2V1H2z",
+                "fill": "#ffffff",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 0v1h1v1H5V0zM1 0v1h1v1H0V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 0v1H5V0zm1 1v1H6V1zM1 0v1H0V0zm1 1v1H1V1z",
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 0h1v2H5V1h1zM1 0h1v2H0V1h1z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M7 1H6v1h1zM2 1H1v1h1z"
+              }
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0H1v2h2V1H2zm5 0H6v2h2V1H7z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M1 1h1v1H1zm5 0h1v1H6z"
+              }
+            }
+          ]
+        },
+        "variant05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 0H6v1H5v1h3V1H7z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M5 1h1v1H5zm1-1h1v1H6zm1 1h1v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0H1v1H0v1h3V1H2z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "d": "M0 1h1v1H0zm1-1h1v1H1zm1 1h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M1 1h1v1H1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M6 1h1v1H6z"
+              }
+            }
+          ]
+        },
+        "variant07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M7 1h1v1H7zM2 1h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M5 1h1v1H5zM0 1h1v1H0z"
+              }
+            }
+          ]
+        },
+        "variant09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M6 1h1v1H6zM1 1h1v1H1z"
+              }
+            }
+          ]
+        },
+        "variant10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M6 0h2v2H6zM1 0h2v2H1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".4",
+                "d": "M1 0h1v1H1zm1 1h1v1H2zm4-1h1v1H6zm1 1h1v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".7",
+                "d": "M7 0h1v1H7zM2 0h1v1H2z"
+              }
+            }
+          ]
+        },
+        "variant11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "d": "M0 1h2v1H0zm5 0h2v1H5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".7",
+                "d": "M0 1h1v1H0zm5 0h1v1H5z"
+              }
+            }
+          ]
+        },
+        "variant12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1h1v2H0V2h1zm5 0h1v2H5V2h1z",
+                "fill": "#ffffff",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1v1H1v1h2V1zm5 0v1H6v1h2V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1v1h1V1zM1 2v1h1V2zm6-1v1h1V1zM6 2v1h1V2z",
+                "fill": "#ffffff",
+                "fill-opacity": ".5",
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "glasses": {
+      "width": 12,
+      "height": 5,
+      "probability": 10,
+      "variants": {
+        "dark01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
+              }
+            }
+          ]
+        },
+        "dark02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1H0v1h1v2h4V3h2v1h4V2h1zm-2 1H7v1h3zM5 3H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
+              }
+            }
+          ]
+        },
+        "dark03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
+              }
+            }
+          ]
+        },
+        "dark04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "dark05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "dark06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "dark07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "light01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
+              }
+            }
+          ]
+        },
+        "light02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 1H0v1h1v2h4V3h2v1h4V2h1zm-2 1H7v1h3zM5 3H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
+              }
+            }
+          ]
+        },
+        "light03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
+              }
+            }
+          ]
+        },
+        "light04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
+              }
+            }
+          ]
+        },
+        "light05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "light06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
+              }
+            }
+          ]
+        },
+        "light07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": "#ffffff",
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 4,
+      "height": 3,
+      "variants": {
+        "happy01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v2h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 1v1h1V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h1v1H0V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0v1H2v1h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v2h2V1H2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 2V1H2V0H1v1h1v1z",
+                "fill": "#ffffff",
+                "fill-opacity": ".2"
+              }
+            }
+          ]
+        },
+        "happy06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h1v1h2V1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 2V1H1V0H0v1h1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 2V1h3V0h1v1H3v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 2h2V1H1zm0-1V0H0v1zm2 0V0h1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "happy10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0v1H3v1H1V1h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h1v1h2V1H1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1v1h2V1z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "happy13": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1v1h2V1z",
+                "fill": "#ffffff",
+                "fill-opacity": ".2"
+              }
+            }
+          ]
+        },
+        "sad01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h2v1H1zm0 1v1H0V1zm2 0v1h1V1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                },
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd"
+              }
+            }
+          ]
+        },
+        "sad02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h2v1h1V1H3V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0v1H1v1H0V1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h3v1H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h3v1H1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h4v1H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h2v1H1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h3v1h1V1H3V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1V1h3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h1v1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#8d5524",
+        "#a26d3d",
+        "#b68655",
+        "#cb9e6e",
+        "#e0b687",
+        "#eac393",
+        "#f5cfa0",
+        "#ffdbac"
+      ]
+    },
+    "eyes": {
+      "values": [
+        "#588387",
+        "#5b7c8b",
+        "#647b90",
+        "#697b94",
+        "#76778b",
+        "#876658"
+      ]
+    },
+    "glasses": {
+      "values": [
+        "#191919",
+        "#323232",
+        "#43677d",
+        "#4b4b4b",
+        "#5f705c",
+        "#a04b5d"
+      ]
+    },
+    "mouth": {
+      "values": [
+        "#c98276",
+        "#d29985",
+        "#de0f0d",
+        "#e35d6a"
+      ]
+    }
+  }
+}

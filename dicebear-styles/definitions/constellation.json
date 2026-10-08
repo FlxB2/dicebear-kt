@@ -1,0 +1,1734 @@
+{
+  "$id": "https://cdn.hopjs.net/npm/@dicebear/styles@11.0.0-rc.3/dist/constellation.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
+  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Constellation” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Constellation",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "star",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 7.5)"
+        }
+      },
+      {
+        "name": "star02",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 7.5)"
+        }
+      },
+      {
+        "name": "star03",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 7.5)"
+        }
+      },
+      {
+        "name": "star04",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 7.5)"
+        }
+      },
+      {
+        "name": "star05",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 32.5)"
+        }
+      },
+      {
+        "name": "star06",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 32.5)"
+        }
+      },
+      {
+        "name": "star07",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 32.5)"
+        }
+      },
+      {
+        "name": "star08",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 32.5)"
+        }
+      },
+      {
+        "name": "star09",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 57.5)"
+        }
+      },
+      {
+        "name": "star10",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 57.5)"
+        }
+      },
+      {
+        "name": "star11",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 57.5)"
+        }
+      },
+      {
+        "name": "star12",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 57.5)"
+        }
+      },
+      {
+        "name": "star13",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 82.5)"
+        }
+      },
+      {
+        "name": "star14",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 82.5)"
+        }
+      },
+      {
+        "name": "star15",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 82.5)"
+        }
+      },
+      {
+        "name": "star16",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 82.5)"
+        }
+      },
+      {
+        "name": "constellation",
+        "type": "component"
+      },
+      {
+        "name": "comet",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "comet": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "probability": 22,
+      "translate": {
+        "x": {
+          "min": -12,
+          "max": 12
+        },
+        "y": {
+          "min": -5,
+          "max": 8
+        }
+      },
+      "variants": {
+        "long": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "animations": [
+                {
+                  "name": "comet",
+                  "duration": 10.5,
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 8,
+                          "value": 1,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 26,
+                          "value": 0,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 15,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 26,
+                          "value": -34.9,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 100,
+                          "value": -34.9
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": -8.9,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 26,
+                          "value": 17.2,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 100,
+                          "value": 17.2
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M42.7 0 0 20.7l1.4 2.6z",
+                    "fill": "url(#cometLong-a)",
+                    "transform": "translate(35.3 12)"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "34",
+                    "r": "1.6",
+                    "fill": "#ffffff",
+                    "fill-opacity": ".9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "linearGradient",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cometLong-a",
+                    "x1": "42.7",
+                    "y1": "0",
+                    "x2": ".7",
+                    "y2": "22",
+                    "gradientUnits": "userSpaceOnUse"
+                  },
+                  "children": [
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": "0",
+                        "stop-color": "#ffffff",
+                        "stop-opacity": "0"
+                      }
+                    },
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": "1",
+                        "stop-color": "#ffffff",
+                        "stop-opacity": ".7"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "short": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "animations": [
+                {
+                  "name": "comet",
+                  "duration": 10.5,
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 8,
+                          "value": 1,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 26,
+                          "value": 0,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 16,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 26,
+                          "value": -36,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 100,
+                          "value": -36
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": -6.6,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 26,
+                          "value": 15,
+                          "easing": "easeIn"
+                        },
+                        {
+                          "at": 100,
+                          "value": 15
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24.5 0 0 8.9l1 2.2z",
+                    "fill": "url(#cometShort-a)",
+                    "transform": "translate(59.5 10)"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "20",
+                    "r": "1.3",
+                    "fill": "#ffffff",
+                    "fill-opacity": ".9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "linearGradient",
+                  "type": "element",
+                  "attributes": {
+                    "id": "cometShort-a",
+                    "x1": "24.5",
+                    "y1": "0",
+                    "x2": ".5",
+                    "y2": "10",
+                    "gradientUnits": "userSpaceOnUse"
+                  },
+                  "children": [
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": "0",
+                        "stop-color": "#ffffff",
+                        "stop-opacity": "0"
+                      }
+                    },
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": "1",
+                        "stop-color": "#ffffff",
+                        "stop-opacity": ".7"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "constellation": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -180,
+        "max": 180
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "andromeda": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m24.7 35.9 19.8 15.9m0 0 12.8 9.5 13.9 2.6M44.5 51.8l5.3-5.7 2.6-5.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "71.2",
+                "cy": "63.9",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "71.2",
+                "cy": "63.9",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M57.3 63.1a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-4.9-20.6a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-2.6 5.3a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-5.3 6.1a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2M24.7 38a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "aquila": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m43.8 39.7-2.5 3.8m0 0-2.5 5.4m2.5-5.4 13.8 12.7m0 0-14.8 4.7L29.7 65m25.4-8.8 10.8-24 3.2-2.8m-14 26.8 10.9 18",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M69.1 30.7a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-3.2 3a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m.1 41.9a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8M55.1 57.7a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3M43.8 41.3a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-2.5 4.6a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.3",
+                "cy": "43.5",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40.3 62.2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-1.5-11.9a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m-9.1 16.2a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "auriga": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m33.2 31.1-2.1 22.2 19 25.7 17.7-13.9L63 42.6l-8.1-13.7z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M67.8 66.5a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8M63 43.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-8.1-12.5a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.9",
+                "cy": "28.9",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.1 80.7a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-16.9-48a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-2.1 22.1a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "bear": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m36.2 45-14.1 6.3 5.7 7 6.4 10.4 20 10 16-10.7 6.7-21.4-9-10-6.4-9.3-6.3 7-7.7 4.3z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22.1",
+                "cy": "51.3",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22.1",
+                "cy": "51.3",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.2 46.5a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3M47.5 40a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m7.7-4.2a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m6.3-6.7a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m6.4 9a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m9 10.1a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-6.7 21.3a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-16 10.8a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-20-10.1a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-6.4-10.5a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m18.4-11.1a2 2 0 0 0 0-4 2 2 0 0 0 0 4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ],
+          "weight": 0.5
+        },
+        "bigDipper": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m52.3 48.9 6.5 6.2 13.6-8.2-3.7-10.2zm0 0-10.6 1.7-8.6.7-10.2 9.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M72.4 48.9a2 2 0 0 0 0-4 2 2 0 0 0 0 4m-3.7-10.1a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2M58.8 57a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m-6.5-6.4a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4M41.7 53a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.7",
+                "cy": "50.6",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.1 53.3a2 2 0 0 0 0-4 2 2 0 0 0 0 4m-10.2 9.2a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "bootes": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m45.1 73.7 11.4-10.4m0 0L44.1 48.8 32.4 36.4l6.2-13.1 10.8 4.6.1 14.9zm0 0 9.4 1.2 2.7 4.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M68.6 70.4a1.1 1.1 0 1 0 0-2.2 1.1 1.1 0 0 0 0 2.2m-2.7-4.5a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m-9.4-.2a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56.5",
+                "cy": "63.3",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.5 44a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-.1-14.8a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6m-4.3 45.6a1.1 1.1 0 1 0 0-2.2 1.1 1.1 0 0 0 0 2.2m-1-24.5a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-5.5-25.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-6.2 13.1a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "camelopardalis": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m53.6 42.6 8.5 26.5-8.9-6.7-13.9-8.7zm0 0L41.8 22.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "62.1",
+                "cy": "69.1",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "62.1",
+                "cy": "69.1",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.6 44.6a2 2 0 0 0 0-4 2 2 0 0 0 0 4m-.4 19.7a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m-13.9-8.5a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2m2.5-31.7a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "cassiopeia": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m25.7 34.2 11.2 15.7 14.4-1.3 9.1 16.3 15.3-12.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M75.7 54.5a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2M60.4 67a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2m-9.1-16a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "51.3",
+                "cy": "48.6",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.9 51.9a2 2 0 0 0 0-4 2 2 0 0 0 0 4M25.7 36a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "cepheus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 42 38.6 23.3l1.7 28.9M58 42l5.8 18.3-14.4 11.9-9.1-20M58 42 40.3 52.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63.8",
+                "cy": "60.3",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63.8",
+                "cy": "60.3",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 43.9a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m-8.6 30.2a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8M40.3 54a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-1.7-28.8a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "coronaBorealis": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m66 27.3 8 15.2-10 16.7-12.3 2.9-10.5 1.6-12.1-5.8-5.2-20.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M74 44.2a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-8-15.3a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-2 32.7a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64",
+                "cy": "59",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M51.7 63.8a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-10.5 1.4a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-12.1-5.7a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-5.2-20.8a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "corvus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m37.1 29.1 2.8 1.6m0 0 17.7 5.4 6.7 26.8M39.9 30.7l-5 36.3 29.4-4.1m1.8 11.2-1.8-11.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M66.1 75.8a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-1.8-10.9a2 2 0 0 0 0-4 2 2 0 0 0 0 4m-6.7-26.4a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57.6",
+                "cy": "36.1",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39.9",
+                "cy": "30.7",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37.1 30.8a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-2.2 38.3a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "delphinus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m63.2 75.8-8.4-25.7m0 0-4-10.3L37.6 38l6 8.3z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M63.2 77.8a2 2 0 0 0 0-4 2 2 0 0 0 0 4m-8.4-25.3a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.8",
+                "cy": "50.1",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.8 41.9a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2m-7.2 6.3a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m-6-8.3a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "dice": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64 36H36v28h28z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36 37.5a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m28 .4a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m0 27.6a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-28 .4a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m14-13.5a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43 44.9a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m14-.4a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3M43 58.9a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m14-.4a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ],
+          "weight": 0.5
+        },
+        "grus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m61.7 54.5-9-9.4-17.6.7-1.2 4.6 12.7 3.4m15.1.7 2.7-19.1 6.9-5.1m-9.6 24.2-15.1-.7m0 0-6.8 15.6m6.8-15.6-2.1 11.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M71.3 32.1a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-6.9 4.7a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m-2.7 20.1a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61.7",
+                "cy": "54.5",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.7 46.6a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-6.1 9.2a2 2 0 0 0 0-4 2 2 0 0 0 0 4M44.5 67a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-4.7 3.9a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-4.7-23.6a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3M33.9 52a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "lacerta": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m56.1 78.4-8.9-17L48 47m0 0 2.6-5.5.4-8.7-3.8 6.1z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56.1 80.4a2 2 0 0 0 0-4 2 2 0 0 0 0 4M51 34.7a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m-.4 8.7a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8M48 49a2 2 0 0 0 0-4 2 2 0 0 0 0 4m-.8 14.3a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.2",
+                "cy": "38.9",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.2",
+                "cy": "38.9",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            }
+          ]
+        },
+        "lynx": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m35.4 63.8 1.1-3 3.4-1.6 1.9-4 8.6-1.3 11.2-8.5 2.7-12.8 5.9-3.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M70.2 31a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-5.9 3.4a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-2.7 12.7a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-11.2 8.6a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-8.6 1.4a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8m-1.9 3.8a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-3.4 1.8a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.4",
+                "cy": "63.8",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.4",
+                "cy": "63.8",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            }
+          ]
+        },
+        "lyra": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m68.3 27.5-11.6 9.3m0 0-8.1 32.5-14.2 4.9 7.5-32z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.3",
+                "cy": "27.5",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.3",
+                "cy": "27.5",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56.7 37.8a1 1 0 0 0 0-2 1 1 0 0 0 0 2m-8.1 32.7a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m-6.7-27.2a1.1 1.1 0 1 0 0-2.2 1.1 1.1 0 0 0 0 2.2m-7.5 32.2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "orion": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.9 47.7 58 28l-22.2-3.3 10.7 27.8m6.4-4.8-3.1 2.7-3.3 2.1m6.4-4.8 12.9 23.5-24.5 4.3 5.2-23",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65.8",
+                "cy": "71.2",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65.8",
+                "cy": "71.2",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 29.7a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-5.1 19.6a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-3.1 2.8a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-3.3 2.1a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4m-5.2 22.9a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m-5.5-50.4a2 2 0 0 0 0-4 2 2 0 0 0 0 4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "ursaMinor": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m49.4 21-3.5 10.3-1.5 12.6L50.2 56m0 0-5.4 5.2 10.5 10.7 4.8-7.2z",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "opacity": ".4"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.4",
+                "cy": "21",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.4",
+                "cy": "21",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-width": ".7",
+                "opacity": ".35"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.1 66.8a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2m-4.8 6.9a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m-5.1-16.2a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m-5.4 5.1a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m-.4-17.2a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3m1.5-12.6a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0 3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "star": {
+      "width": 10,
+      "height": 10,
+      "probability": 85,
+      "translate": {
+        "x": {
+          "min": -120,
+          "max": 120
+        },
+        "y": {
+          "min": -120,
+          "max": 120
+        }
+      },
+      "variants": {
+        "faint": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5",
+                "cy": "5",
+                "r": ".6",
+                "fill": "#ffffff",
+                "fill-opacity": ".4"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        "medium": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5",
+                "cy": "5",
+                "r": "1",
+                "fill": "#ffffff",
+                "fill-opacity": ".7"
+              },
+              "animations": [
+                {
+                  "name": "twinkle",
+                  "duration": 7.4,
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 29.7297,
+                          "value": 1,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 64.8649,
+                          "value": 0.3,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "small": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5",
+                "cy": "5",
+                "r": ".8",
+                "fill": "#ffffff",
+                "fill-opacity": ".6"
+              },
+              "animations": [
+                {
+                  "name": "twinkle",
+                  "duration": 5.3,
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 20.7547,
+                          "value": 1,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 60.3774,
+                          "value": 0.3,
+                          "easing": "easeInOut"
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 3
+        }
+      }
+    },
+    "star02": {
+      "extends": "star"
+    },
+    "star03": {
+      "extends": "star"
+    },
+    "star04": {
+      "extends": "star"
+    },
+    "star05": {
+      "extends": "star"
+    },
+    "star06": {
+      "extends": "star"
+    },
+    "star07": {
+      "extends": "star"
+    },
+    "star08": {
+      "extends": "star"
+    },
+    "star09": {
+      "extends": "star"
+    },
+    "star10": {
+      "extends": "star"
+    },
+    "star11": {
+      "extends": "star"
+    },
+    "star12": {
+      "extends": "star"
+    },
+    "star13": {
+      "extends": "star"
+    },
+    "star14": {
+      "extends": "star"
+    },
+    "star15": {
+      "extends": "star"
+    },
+    "star16": {
+      "extends": "star"
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#032729",
+        "#032933",
+        "#0d1e2f",
+        "#131e37",
+        "#181a22",
+        "#1f2040",
+        "#27193c",
+        "#2f182d"
+      ]
+    },
+    "constellation": {
+      "values": [
+        "#c1e0f0",
+        "#e7ecf0",
+        "#e9dab2",
+        "#ece8dd",
+        "#f1d7d2"
+      ]
+    }
+  }
+}
