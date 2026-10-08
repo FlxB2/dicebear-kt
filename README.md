@@ -1,6 +1,7 @@
 # DiceBear Kotlin
 
-A Kotlin Multiplatform port of [DiceBear](https://github.com/dicebear/dicebear), the avatar library.
+An **unofficial** Kotlin Multiplatform port of [DiceBear](https://github.com/dicebear/dicebear), the
+avatar library. This project is not affiliated with or endorsed by DiceBear or its author.
 It turns any seed (a username, an email address, …) into an SVG avatar in one of 63 styles. Everything
 runs **offline**: no HTTP API, no WebView, no JavaScript engine.
 
@@ -21,7 +22,8 @@ runs **offline**: no HTTP API, no WebView, no JavaScript engine.
 | `dicebear-core`   | The engine: `Style`, `Avatar`, `OptionsDescriptor`, validation errors.      |
 | `dicebear-styles` | All 63 official style definitions as `DiceBearStyles.<name>` (depends on core). |
 
-Versions: core ports `@dicebear/core` **11.0.0-rc.2**, styles are `@dicebear/styles` **11.0.0-rc.3**.
+This project has its own version numbers. Version **0.1.0** ports `@dicebear/core` **11.0.0-rc.2**
+and bundles the styles of `@dicebear/styles` **11.0.0-rc.3**.
 
 ## Installation
 
@@ -41,7 +43,7 @@ repositories {
 kotlin {
     sourceSets {
         commonMain.dependencies {
-            implementation("xyz.felixb.dicebear:dicebear-styles:11.0.0-rc.2") // includes dicebear-core
+            implementation("xyz.felixb.dicebear:dicebear-styles:0.1.0") // includes dicebear-core
         }
     }
 }
@@ -152,6 +154,10 @@ styles have their own licenses:** 44 are CC0 1.0, 14 are CC BY 4.0 (attribution 
 See `dicebear-styles/LICENSE.md` and the KDoc of each `DiceBearStyles.<name>` accessor.
 `Style.meta` gives you the creator, source and license at runtime. Every rendered SVG also embeds
 this information in its `<metadata>` element.
+
+The published jars carry these notices in `META-INF/` (`LICENSE`, and `LICENSE-STYLES.md` for
+`dicebear-styles`), and the POMs list the licenses per module. If you show avatars of a CC BY 4.0
+style, you have to credit its creator as well.
 
 ## Testing
 

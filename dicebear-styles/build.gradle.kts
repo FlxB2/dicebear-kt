@@ -70,6 +70,46 @@ kotlin {
     }
 }
 
+publishing {
+    publications.withType<MavenPublication>().configureEach {
+        pom {
+            name = "DiceBear Kotlin styles"
+            description = "The 63 DiceBear avatar styles for the unofficial DiceBear Kotlin port " +
+                "(not affiliated with DiceBear). Each style has its own license, see LICENSE-STYLES.md."
+            licenses {
+                license {
+                    name = "MIT"
+                    url = "https://opensource.org/license/mit"
+                    comments = "Code and the Icons style"
+                }
+                license {
+                    name = "CC0-1.0"
+                    url = "https://creativecommons.org/publicdomain/zero/1.0/"
+                    comments = "44 styles"
+                }
+                license {
+                    name = "CC-BY-4.0"
+                    url = "https://creativecommons.org/licenses/by/4.0/"
+                    comments = "14 styles, attribution required"
+                }
+                license {
+                    name = "Free for personal and commercial use"
+                    url = "https://github.com/FlxB2/dicebear-kt/blob/main/dicebear-styles/LICENSE.md"
+                    comments = "4 styles (Avataaars, Bottts); per-style details in LICENSE-STYLES.md"
+                }
+            }
+        }
+    }
+}
+
+// Ship the per-style licenses (and the MIT notice for the code) inside every jar.
+tasks.withType<Jar>().configureEach {
+    metaInf {
+        from(rootProject.file("LICENSE"))
+        from(file("LICENSE.md")) { rename { "LICENSE-STYLES.md" } }
+    }
+}
+
 tasks.withType<AbstractTestTask>().configureEach {
     testLogging {
         events("failed")

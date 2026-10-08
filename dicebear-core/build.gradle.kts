@@ -88,6 +88,29 @@ kotlin {
     }
 }
 
+publishing {
+    publications.withType<MavenPublication>().configureEach {
+        pom {
+            name = "DiceBear Kotlin core"
+            description = "Unofficial Kotlin Multiplatform port of the DiceBear avatar engine " +
+                "(not affiliated with DiceBear). Renders deterministic SVG avatars offline."
+            licenses {
+                license {
+                    name = "MIT"
+                    url = "https://opensource.org/license/mit"
+                }
+            }
+        }
+    }
+}
+
+// Ship the MIT notice (DiceBear's copyright) inside every jar.
+tasks.withType<Jar>().configureEach {
+    metaInf {
+        from(rootProject.file("LICENSE"))
+    }
+}
+
 tasks.withType<AbstractTestTask>().configureEach {
     testLogging {
         events("failed")
