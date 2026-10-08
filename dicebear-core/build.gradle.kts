@@ -5,7 +5,14 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidMultiplatformLibrary)
     id("dicebear.embed-json")
-    `maven-publish`
+    alias(libs.plugins.mavenPublish)
+}
+
+// Publishing to Maven Central: see "Publishing" in the README.
+mavenPublishing {
+    publishToMavenCentral()
+    // Only sign when a key is configured, so publishToMavenLocal works without one.
+    if (providers.gradleProperty("signingInMemoryKey").isPresent) signAllPublications()
 }
 
 // The draft-07 JSON Schemas for style definitions and avatar options (from @dicebear/schema),

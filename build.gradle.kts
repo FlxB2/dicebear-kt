@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.kotlinMultiplatform) apply false
     alias(libs.plugins.androidMultiplatformLibrary) apply false
+    alias(libs.plugins.mavenPublish) apply false
 }
 
 // This project's own version. The ported DiceBear versions are listed in the README.

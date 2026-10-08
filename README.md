@@ -27,17 +27,11 @@ and bundles the styles of `@dicebear/styles` **11.0.0-rc.3**.
 
 ## Installation
 
-The library is not on Maven Central yet. Publish it to your local Maven repository:
-
-```bash
-./gradlew publishToMavenLocal
-```
-
-Then, in your project:
+The library is on [Maven Central](https://central.sonatype.com/namespace/xyz.felixb.dicebear):
 
 ```kotlin
 repositories {
-    mavenLocal()
+    mavenCentral()
 }
 
 kotlin {
@@ -48,6 +42,9 @@ kotlin {
     }
 }
 ```
+
+On the JVM or Android without Kotlin Multiplatform, the same coordinates work in a plain
+`dependencies { implementation(…) }` block; Gradle picks the right variant.
 
 Use `dicebear-core` alone if you bring your own style definitions (JSON) and don't want the
 bundled ones.
@@ -178,6 +175,28 @@ Every target runs:
 
 `./gradlew :dicebear-styles:jvmTest` also writes example galleries to
 `dicebear-styles/build/gallery/` (`index.html`: every style; `moods.html`: 100 × moods).
+
+## Publishing
+
+Releases go to Maven Central (namespace `xyz.felixb`) through the
+[vanniktech maven-publish plugin](https://vanniktech.github.io/gradle-maven-publish-plugin/central/).
+The secrets live in `~/.gradle/gradle.properties`, never in this repository:
+
+```properties
+mavenCentralUsername=<Central Portal user token: username>
+mavenCentralPassword=<Central Portal user token: password>
+signingInMemoryKey=<ASCII-armored private GPG key, newlines as \n>
+signingInMemoryKeyPassword=<passphrase of that key>
+```
+
+Run the release on a Mac, since the iOS artifacts can only be built on macOS:
+
+```bash
+./gradlew publishToMavenCentral            # upload only, review and release in the portal
+./gradlew publishAndReleaseToMavenCentral  # upload and release
+```
+
+Bump `version` in `build.gradle.kts` first: a released version can never be replaced.
 
 ## Updating DiceBear
 
